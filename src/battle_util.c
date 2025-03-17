@@ -8649,14 +8649,14 @@ u8 GetAttackerObedienceForAction()
     if (FlagGet(FLAG_BADGE08_GET)) // Rain Badge, ignore obedience altogether
         return OBEYS;
 
-    obedienceLevel = 10;
+    obedienceLevel = 100;
 
     if (FlagGet(FLAG_BADGE02_GET))
-        obedienceLevel = 30;
+        obedienceLevel = 100;
     if (FlagGet(FLAG_BADGE04_GET))
-        obedienceLevel = 50;
+        obedienceLevel = 100;
     if (FlagGet(FLAG_BADGE06_GET))
-        obedienceLevel = 70;
+        obedienceLevel = 100;
 
     if (B_OBEDIENCE_MECHANICS >= GEN_8
      && !IsOtherTrainer(gBattleMons[gBattlerAttacker].otId, gBattleMons[gBattlerAttacker].otName))

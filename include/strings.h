@@ -1575,4 +1575,12 @@ extern const u8 gText_PM[];
 // Switch Caught Mon into Party
 extern const u8 gText_CannotSendMonToBoxHM[];
 
+extern const u8 gText_NettuxNameRater[];
+extern const u8 gText_NettuxMoveRelearner[];
+extern const u8 gText_NettuxHyperTrainer[];
+extern const u8 gText_NettuxBattleMart[];
+extern const u8 gText_NettuxTrainingMart[];
+extern const u8 gText_NettuxTMMart[];
+extern const u8 gText_NettuxEvolveMart[];
+
 #endif //GUARD_STRINGS_H

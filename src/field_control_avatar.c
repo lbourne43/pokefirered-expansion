@@ -27,6 +27,7 @@
 #include "wild_encounter.h"
 #include "wonder_news.h"
 #include "constants/songs.h"
+#include "constants/items.h"
 #include "constants/event_bg.h"
 #include "constants/event_objects.h"
 #include "constants/maps.h"

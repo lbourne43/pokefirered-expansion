@@ -65,6 +65,7 @@ ViridianCity_Mart_EventScript_Clerk::
 
 	.align 2
 ViridianCity_Mart_Items::
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_POTION
 	.2byte ITEM_ANTIDOTE
@@ -85,3 +86,8 @@ ViridianCity_Mart_EventScript_Woman::
 ViridianCity_Mart_EventScript_Youngster::
 	msgbox ViridianCity_Mart_Text_GotToBuySomePotions, MSGBOX_NPC
 	end
+
+ViridianCity_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end
+

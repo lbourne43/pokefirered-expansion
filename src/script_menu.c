@@ -554,6 +554,21 @@ static const struct MenuAction sMultichoiceList_TrainerTowerMode[] = {
     { gOtherText_Exit }
 };
 
+static const struct MenuAction sMultichoiceList_NettuxPokeHelper[] =
+{
+    {gText_NettuxNameRater},
+    {gText_NettuxMoveRelearner},
+    {gText_NettuxHyperTrainer},
+};
+
+static const struct MenuAction sMultichoiceList_NettuxMartHelper[] =
+{
+    {gText_NettuxBattleMart},
+    {gText_NettuxTrainingMart},
+    {gText_NettuxTMMart},
+    {gText_NettuxEvolveMart},
+};
+
 static const struct MenuAction sMultichoiceList_Exit[] = {
     { gOtherText_Exit }
 };
@@ -624,6 +639,8 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_62]                                         = MULTICHOICE(sMultichoiceList_62),
     [MULTICHOICE_JOIN_OR_LEAD]                               = MULTICHOICE(sMultichoiceList_JoinOrLead),
     [MULTICHOICE_TRAINER_TOWER_MODE]                         = MULTICHOICE(sMultichoiceList_TrainerTowerMode),
+    [MULTICHOICE_NETTUX_POKE_HELPER]                         = MULTICHOICE(sMultichoiceList_NettuxPokeHelper),
+    [MULTICHOICE_NETTUX_MART_HELPER]                         = MULTICHOICE(sMultichoiceList_NettuxMartHelper),
 };
 
 // From Cool to Berries goes unused

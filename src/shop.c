@@ -21,6 +21,7 @@
 #include "menu_indicators.h"
 #include "field_player_avatar.h"
 #include "fieldmap.h"
+#include "event_data.h"
 #include "event_object_movement.h"
 #include "money.h"
 #include "move.h"
@@ -356,6 +357,947 @@ static const u8 sShopBuyMenuTextColors[][3] =
     {0, 3, 2}
 };
 
+
+
+// nettux
+
+static const u16 sNettuxBattleInventory_ZeroBadges[] = {
+    ITEM_SILK_SCARF,
+    ITEM_CHARCOAL,
+    ITEM_MYSTIC_WATER,
+    ITEM_MAGNET,
+    ITEM_MIRACLE_SEED,
+    ITEM_NEVER_MELT_ICE,
+    ITEM_BLACK_BELT,
+    ITEM_POISON_BARB,
+    ITEM_SOFT_SAND,
+    ITEM_SHARP_BEAK,
+    ITEM_TWISTED_SPOON,
+    ITEM_SILVER_POWDER,
+    ITEM_DRAGON_FANG,
+    ITEM_BLACK_GLASSES,
+    ITEM_SNOWBALL,
+    ITEM_HARD_STONE,
+    ITEM_SPELL_TAG,
+    ITEM_METAL_COAT,
+    ITEM_EXP_SHARE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxBattleInventory_OneBadge[] = {
+    ITEM_SILK_SCARF,
+    ITEM_CHARCOAL,
+    ITEM_MYSTIC_WATER,
+    ITEM_MAGNET,
+    ITEM_MIRACLE_SEED,
+    ITEM_NEVER_MELT_ICE,
+    ITEM_BLACK_BELT,
+    ITEM_POISON_BARB,
+    ITEM_SOFT_SAND,
+    ITEM_SHARP_BEAK,
+    ITEM_TWISTED_SPOON,
+    ITEM_SILVER_POWDER,
+    ITEM_DRAGON_FANG,
+    ITEM_BLACK_GLASSES,
+    ITEM_SNOWBALL,
+    ITEM_HARD_STONE,
+    ITEM_SPELL_TAG,
+    ITEM_METAL_COAT,
+    ITEM_EXP_SHARE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxBattleInventory_TwoBadges[] = {
+    ITEM_SILK_SCARF,
+    ITEM_CHARCOAL,
+    ITEM_MYSTIC_WATER,
+    ITEM_MAGNET,
+    ITEM_MIRACLE_SEED,
+    ITEM_NEVER_MELT_ICE,
+    ITEM_BLACK_BELT,
+    ITEM_POISON_BARB,
+    ITEM_SOFT_SAND,
+    ITEM_SHARP_BEAK,
+    ITEM_TWISTED_SPOON,
+    ITEM_SILVER_POWDER,
+    ITEM_DRAGON_FANG,
+    ITEM_BLACK_GLASSES,
+    ITEM_SNOWBALL,
+    ITEM_HARD_STONE,
+    ITEM_SPELL_TAG,
+    ITEM_METAL_COAT,
+    ITEM_EXP_SHARE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxBattleInventory_ThreeBadges[] = {
+    ITEM_SILK_SCARF,
+    ITEM_CHARCOAL,
+    ITEM_MYSTIC_WATER,
+    ITEM_MAGNET,
+    ITEM_MIRACLE_SEED,
+    ITEM_NEVER_MELT_ICE,
+    ITEM_BLACK_BELT,
+    ITEM_POISON_BARB,
+    ITEM_SOFT_SAND,
+    ITEM_SHARP_BEAK,
+    ITEM_TWISTED_SPOON,
+    ITEM_SILVER_POWDER,
+    ITEM_DRAGON_FANG,
+    ITEM_BLACK_GLASSES,
+    ITEM_SNOWBALL,
+    ITEM_HARD_STONE,
+    ITEM_SPELL_TAG,
+    ITEM_METAL_COAT,
+    ITEM_EXP_SHARE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxBattleInventory_FourBadges[] = {
+    ITEM_SILK_SCARF,
+    ITEM_CHARCOAL,
+    ITEM_MYSTIC_WATER,
+    ITEM_MAGNET,
+    ITEM_MIRACLE_SEED,
+    ITEM_NEVER_MELT_ICE,
+    ITEM_BLACK_BELT,
+    ITEM_POISON_BARB,
+    ITEM_SOFT_SAND,
+    ITEM_SHARP_BEAK,
+    ITEM_TWISTED_SPOON,
+    ITEM_SILVER_POWDER,
+    ITEM_DRAGON_FANG,
+    ITEM_BLACK_GLASSES,
+    ITEM_SNOWBALL,
+    ITEM_HARD_STONE,
+    ITEM_SPELL_TAG,
+    ITEM_METAL_COAT,
+    ITEM_EXP_SHARE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxBattleInventory_FiveBadges[] = {
+    ITEM_SILK_SCARF,
+    ITEM_CHARCOAL,
+    ITEM_MYSTIC_WATER,
+    ITEM_MAGNET,
+    ITEM_MIRACLE_SEED,
+    ITEM_NEVER_MELT_ICE,
+    ITEM_BLACK_BELT,
+    ITEM_POISON_BARB,
+    ITEM_SOFT_SAND,
+    ITEM_SHARP_BEAK,
+    ITEM_TWISTED_SPOON,
+    ITEM_SILVER_POWDER,
+    ITEM_DRAGON_FANG,
+    ITEM_BLACK_GLASSES,
+    ITEM_SNOWBALL,
+    ITEM_HARD_STONE,
+    ITEM_SPELL_TAG,
+    ITEM_METAL_COAT,
+    ITEM_EXP_SHARE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxBattleInventory_SixBadges[] = {
+    ITEM_SILK_SCARF,
+    ITEM_CHARCOAL,
+    ITEM_MYSTIC_WATER,
+    ITEM_MAGNET,
+    ITEM_MIRACLE_SEED,
+    ITEM_NEVER_MELT_ICE,
+    ITEM_BLACK_BELT,
+    ITEM_POISON_BARB,
+    ITEM_SOFT_SAND,
+    ITEM_SHARP_BEAK,
+    ITEM_TWISTED_SPOON,
+    ITEM_SILVER_POWDER,
+    ITEM_DRAGON_FANG,
+    ITEM_BLACK_GLASSES,
+    ITEM_SNOWBALL,
+    ITEM_HARD_STONE,
+    ITEM_SPELL_TAG,
+    ITEM_METAL_COAT,
+    ITEM_EXP_SHARE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxBattleInventory_SevenBadges[] = {
+    ITEM_SILK_SCARF,
+    ITEM_CHARCOAL,
+    ITEM_MYSTIC_WATER,
+    ITEM_MAGNET,
+    ITEM_MIRACLE_SEED,
+    ITEM_NEVER_MELT_ICE,
+    ITEM_BLACK_BELT,
+    ITEM_POISON_BARB,
+    ITEM_SOFT_SAND,
+    ITEM_SHARP_BEAK,
+    ITEM_TWISTED_SPOON,
+    ITEM_SILVER_POWDER,
+    ITEM_DRAGON_FANG,
+    ITEM_BLACK_GLASSES,
+    ITEM_SNOWBALL,
+    ITEM_HARD_STONE,
+    ITEM_SPELL_TAG,
+    ITEM_METAL_COAT,
+    ITEM_EXP_SHARE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxBattleInventory_EightBadges[] = {
+    ITEM_SILK_SCARF,
+    ITEM_CHARCOAL,
+    ITEM_MYSTIC_WATER,
+    ITEM_MAGNET,
+    ITEM_MIRACLE_SEED,
+    ITEM_NEVER_MELT_ICE,
+    ITEM_BLACK_BELT,
+    ITEM_POISON_BARB,
+    ITEM_SOFT_SAND,
+    ITEM_SHARP_BEAK,
+    ITEM_TWISTED_SPOON,
+    ITEM_SILVER_POWDER,
+    ITEM_DRAGON_FANG,
+    ITEM_BLACK_GLASSES,
+    ITEM_SNOWBALL,
+    ITEM_HARD_STONE,
+    ITEM_SPELL_TAG,
+    ITEM_METAL_COAT,
+    ITEM_EXP_SHARE,
+    ITEM_NONE
+};
+
+static const u16 *const sNettuxBattleInventories[] =
+{
+    sNettuxBattleInventory_ZeroBadges,
+    sNettuxBattleInventory_OneBadge,
+    sNettuxBattleInventory_TwoBadges,
+    sNettuxBattleInventory_ThreeBadges,
+    sNettuxBattleInventory_FourBadges,
+    sNettuxBattleInventory_FiveBadges,
+    sNettuxBattleInventory_SixBadges,
+    sNettuxBattleInventory_SevenBadges,
+    sNettuxBattleInventory_EightBadges
+};
+
+static const u16 sNettuxTMInventory_ZeroBadges[] = {
+    ITEM_TM_SUNNY_DAY,
+    ITEM_TM_LIGHT_SCREEN,
+    ITEM_TM_PROTECT,
+    ITEM_TM_RAIN_DANCE,
+    ITEM_TM_REFLECT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTMInventory_OneBadge[] = {
+    ITEM_TM_SUNNY_DAY,
+    ITEM_TM_LIGHT_SCREEN,
+    ITEM_TM_PROTECT,
+    ITEM_TM_RAIN_DANCE,
+    ITEM_TM_REFLECT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTMInventory_TwoBadges[] = {
+    ITEM_TM_SUNNY_DAY,
+    ITEM_TM_LIGHT_SCREEN,
+    ITEM_TM_PROTECT,
+    ITEM_TM_RAIN_DANCE,
+    ITEM_TM_REFLECT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTMInventory_ThreeBadges[] = {
+    ITEM_TM_SUNNY_DAY,
+    ITEM_TM_LIGHT_SCREEN,
+    ITEM_TM_PROTECT,
+    ITEM_TM_RAIN_DANCE,
+    ITEM_TM_REFLECT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTMInventory_FourBadges[] = {
+    ITEM_TM_SUNNY_DAY,
+    ITEM_TM_LIGHT_SCREEN,
+    ITEM_TM_PROTECT,
+    ITEM_TM_RAIN_DANCE,
+    ITEM_TM_REFLECT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTMInventory_FiveBadges[] = {
+    ITEM_TM_SUNNY_DAY,
+    ITEM_TM_LIGHT_SCREEN,
+    ITEM_TM_PROTECT,
+    ITEM_TM_RAIN_DANCE,
+    ITEM_TM_REFLECT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTMInventory_SixBadges[] = {
+    ITEM_TM_SUNNY_DAY,
+    ITEM_TM_LIGHT_SCREEN,
+    ITEM_TM_PROTECT,
+    ITEM_TM_RAIN_DANCE,
+    ITEM_TM_REFLECT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTMInventory_SevenBadges[] = {
+    ITEM_TM_SUNNY_DAY,
+    ITEM_TM_LIGHT_SCREEN,
+    ITEM_TM_PROTECT,
+    ITEM_TM_RAIN_DANCE,
+    ITEM_TM_REFLECT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTMInventory_EightBadges[] = {
+    ITEM_TM_SUNNY_DAY,
+    ITEM_TM_LIGHT_SCREEN,
+    ITEM_TM_PROTECT,
+    ITEM_TM_RAIN_DANCE,
+    ITEM_TM_REFLECT,
+    ITEM_NONE
+};
+
+static const u16 *const sNettuxTMInventories[] =
+{
+    sNettuxTMInventory_ZeroBadges,
+    sNettuxTMInventory_OneBadge,
+    sNettuxTMInventory_TwoBadges,
+    sNettuxTMInventory_ThreeBadges,
+    sNettuxTMInventory_FourBadges,
+    sNettuxTMInventory_FiveBadges,
+    sNettuxTMInventory_SixBadges,
+    sNettuxTMInventory_SevenBadges,
+    sNettuxTMInventory_EightBadges
+};
+
+static const u16 sNettuxEvolveInventory_ZeroBadges[] = {
+    ITEM_FIRE_STONE,
+    ITEM_WATER_STONE,
+    ITEM_THUNDER_STONE,
+    ITEM_LEAF_STONE,
+    ITEM_ICE_STONE,
+    ITEM_SUN_STONE,
+    ITEM_MOON_STONE,
+    ITEM_SHINY_STONE,
+    ITEM_DUSK_STONE,
+    ITEM_DAWN_STONE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxEvolveInventory_OneBadge[] = {
+    ITEM_FIRE_STONE,
+    ITEM_WATER_STONE,
+    ITEM_THUNDER_STONE,
+    ITEM_LEAF_STONE,
+    ITEM_ICE_STONE,
+    ITEM_SUN_STONE,
+    ITEM_MOON_STONE,
+    ITEM_SHINY_STONE,
+    ITEM_DUSK_STONE,
+    ITEM_DAWN_STONE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxEvolveInventory_TwoBadges[] = {
+    ITEM_FIRE_STONE,
+    ITEM_WATER_STONE,
+    ITEM_THUNDER_STONE,
+    ITEM_LEAF_STONE,
+    ITEM_ICE_STONE,
+    ITEM_SUN_STONE,
+    ITEM_MOON_STONE,
+    ITEM_SHINY_STONE,
+    ITEM_DUSK_STONE,
+    ITEM_DAWN_STONE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxEvolveInventory_ThreeBadges[] = {
+    ITEM_FIRE_STONE,
+    ITEM_WATER_STONE,
+    ITEM_THUNDER_STONE,
+    ITEM_LEAF_STONE,
+    ITEM_ICE_STONE,
+    ITEM_SUN_STONE,
+    ITEM_MOON_STONE,
+    ITEM_SHINY_STONE,
+    ITEM_DUSK_STONE,
+    ITEM_DAWN_STONE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxEvolveInventory_FourBadges[] = {
+    ITEM_FIRE_STONE,
+    ITEM_WATER_STONE,
+    ITEM_THUNDER_STONE,
+    ITEM_LEAF_STONE,
+    ITEM_ICE_STONE,
+    ITEM_SUN_STONE,
+    ITEM_MOON_STONE,
+    ITEM_SHINY_STONE,
+    ITEM_DUSK_STONE,
+    ITEM_DAWN_STONE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxEvolveInventory_FiveBadges[] = {
+    ITEM_FIRE_STONE,
+    ITEM_WATER_STONE,
+    ITEM_THUNDER_STONE,
+    ITEM_LEAF_STONE,
+    ITEM_ICE_STONE,
+    ITEM_SUN_STONE,
+    ITEM_MOON_STONE,
+    ITEM_SHINY_STONE,
+    ITEM_DUSK_STONE,
+    ITEM_DAWN_STONE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxEvolveInventory_SixBadges[] = {
+    ITEM_FIRE_STONE,
+    ITEM_WATER_STONE,
+    ITEM_THUNDER_STONE,
+    ITEM_LEAF_STONE,
+    ITEM_ICE_STONE,
+    ITEM_SUN_STONE,
+    ITEM_MOON_STONE,
+    ITEM_SHINY_STONE,
+    ITEM_DUSK_STONE,
+    ITEM_DAWN_STONE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxEvolveInventory_SevenBadges[] = {
+    ITEM_FIRE_STONE,
+    ITEM_WATER_STONE,
+    ITEM_THUNDER_STONE,
+    ITEM_LEAF_STONE,
+    ITEM_ICE_STONE,
+    ITEM_SUN_STONE,
+    ITEM_MOON_STONE,
+    ITEM_SHINY_STONE,
+    ITEM_DUSK_STONE,
+    ITEM_DAWN_STONE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxEvolveInventory_EightBadges[] = {
+    ITEM_FIRE_STONE,
+    ITEM_WATER_STONE,
+    ITEM_THUNDER_STONE,
+    ITEM_LEAF_STONE,
+    ITEM_ICE_STONE,
+    ITEM_SUN_STONE,
+    ITEM_MOON_STONE,
+    ITEM_SHINY_STONE,
+    ITEM_DUSK_STONE,
+    ITEM_DAWN_STONE,
+    ITEM_NONE
+};
+
+static const u16 *const sNettuxEvolveInventories[] =
+{
+    sNettuxEvolveInventory_ZeroBadges,
+    sNettuxEvolveInventory_OneBadge,
+    sNettuxEvolveInventory_TwoBadges,
+    sNettuxEvolveInventory_ThreeBadges,
+    sNettuxEvolveInventory_FourBadges,
+    sNettuxEvolveInventory_FiveBadges,
+    sNettuxEvolveInventory_SixBadges,
+    sNettuxEvolveInventory_SevenBadges,
+    sNettuxEvolveInventory_EightBadges
+};
+
+static const u16 sNettuxTrainingInventory_ZeroBadges[] = {
+    ITEM_EXP_CANDY_XS,
+    ITEM_EXP_CANDY_S,
+    ITEM_RARE_CANDY,
+    ITEM_HP_UP,
+    ITEM_PROTEIN,
+    ITEM_IRON,
+    ITEM_CALCIUM,
+    ITEM_ZINC,
+    ITEM_CARBOS,
+    ITEM_LONELY_MINT,
+    ITEM_ADAMANT_MINT,
+    ITEM_NAUGHTY_MINT,
+    ITEM_BRAVE_MINT,
+    ITEM_BOLD_MINT,
+    ITEM_IMPISH_MINT,
+    ITEM_LAX_MINT,
+    ITEM_RELAXED_MINT,
+    ITEM_MODEST_MINT,
+    ITEM_MILD_MINT,
+    ITEM_RASH_MINT,
+    ITEM_QUIET_MINT,
+    ITEM_CALM_MINT,
+    ITEM_GENTLE_MINT,
+    ITEM_CAREFUL_MINT,
+    ITEM_SASSY_MINT,
+    ITEM_TIMID_MINT,
+    ITEM_HASTY_MINT,
+    ITEM_JOLLY_MINT,
+    ITEM_NAIVE_MINT,
+    ITEM_SERIOUS_MINT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTrainingInventory_OneBadge[] = {
+    ITEM_EXP_CANDY_XS,
+    ITEM_RARE_CANDY,
+    ITEM_HP_UP,
+    ITEM_PROTEIN,
+    ITEM_IRON,
+    ITEM_CALCIUM,
+    ITEM_ZINC,
+    ITEM_CARBOS,
+    ITEM_LONELY_MINT,
+    ITEM_ADAMANT_MINT,
+    ITEM_NAUGHTY_MINT,
+    ITEM_BRAVE_MINT,
+    ITEM_BOLD_MINT,
+    ITEM_IMPISH_MINT,
+    ITEM_LAX_MINT,
+    ITEM_RELAXED_MINT,
+    ITEM_MODEST_MINT,
+    ITEM_MILD_MINT,
+    ITEM_RASH_MINT,
+    ITEM_QUIET_MINT,
+    ITEM_CALM_MINT,
+    ITEM_GENTLE_MINT,
+    ITEM_CAREFUL_MINT,
+    ITEM_SASSY_MINT,
+    ITEM_TIMID_MINT,
+    ITEM_HASTY_MINT,
+    ITEM_JOLLY_MINT,
+    ITEM_NAIVE_MINT,
+    ITEM_SERIOUS_MINT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTrainingInventory_TwoBadges[] = {
+    ITEM_EXP_CANDY_XS,
+    ITEM_RARE_CANDY,
+    ITEM_HP_UP,
+    ITEM_PROTEIN,
+    ITEM_IRON,
+    ITEM_CALCIUM,
+    ITEM_ZINC,
+    ITEM_CARBOS,
+    ITEM_LONELY_MINT,
+    ITEM_ADAMANT_MINT,
+    ITEM_NAUGHTY_MINT,
+    ITEM_BRAVE_MINT,
+    ITEM_BOLD_MINT,
+    ITEM_IMPISH_MINT,
+    ITEM_LAX_MINT,
+    ITEM_RELAXED_MINT,
+    ITEM_MODEST_MINT,
+    ITEM_MILD_MINT,
+    ITEM_RASH_MINT,
+    ITEM_QUIET_MINT,
+    ITEM_CALM_MINT,
+    ITEM_GENTLE_MINT,
+    ITEM_CAREFUL_MINT,
+    ITEM_SASSY_MINT,
+    ITEM_TIMID_MINT,
+    ITEM_HASTY_MINT,
+    ITEM_JOLLY_MINT,
+    ITEM_NAIVE_MINT,
+    ITEM_SERIOUS_MINT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTrainingInventory_ThreeBadges[] = {
+    ITEM_EXP_CANDY_XS,
+    ITEM_RARE_CANDY,
+    ITEM_HP_UP,
+    ITEM_PROTEIN,
+    ITEM_IRON,
+    ITEM_CALCIUM,
+    ITEM_ZINC,
+    ITEM_CARBOS,
+    ITEM_LONELY_MINT,
+    ITEM_ADAMANT_MINT,
+    ITEM_NAUGHTY_MINT,
+    ITEM_BRAVE_MINT,
+    ITEM_BOLD_MINT,
+    ITEM_IMPISH_MINT,
+    ITEM_LAX_MINT,
+    ITEM_RELAXED_MINT,
+    ITEM_MODEST_MINT,
+    ITEM_MILD_MINT,
+    ITEM_RASH_MINT,
+    ITEM_QUIET_MINT,
+    ITEM_CALM_MINT,
+    ITEM_GENTLE_MINT,
+    ITEM_CAREFUL_MINT,
+    ITEM_SASSY_MINT,
+    ITEM_TIMID_MINT,
+    ITEM_HASTY_MINT,
+    ITEM_JOLLY_MINT,
+    ITEM_NAIVE_MINT,
+    ITEM_SERIOUS_MINT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTrainingInventory_FourBadges[] = {
+    ITEM_EXP_CANDY_XS,
+    ITEM_RARE_CANDY,
+    ITEM_HP_UP,
+    ITEM_PROTEIN,
+    ITEM_IRON,
+    ITEM_CALCIUM,
+    ITEM_ZINC,
+    ITEM_CARBOS,
+    ITEM_LONELY_MINT,
+    ITEM_ADAMANT_MINT,
+    ITEM_NAUGHTY_MINT,
+    ITEM_BRAVE_MINT,
+    ITEM_BOLD_MINT,
+    ITEM_IMPISH_MINT,
+    ITEM_LAX_MINT,
+    ITEM_RELAXED_MINT,
+    ITEM_MODEST_MINT,
+    ITEM_MILD_MINT,
+    ITEM_RASH_MINT,
+    ITEM_QUIET_MINT,
+    ITEM_CALM_MINT,
+    ITEM_GENTLE_MINT,
+    ITEM_CAREFUL_MINT,
+    ITEM_SASSY_MINT,
+    ITEM_TIMID_MINT,
+    ITEM_HASTY_MINT,
+    ITEM_JOLLY_MINT,
+    ITEM_NAIVE_MINT,
+    ITEM_SERIOUS_MINT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTrainingInventory_FiveBadges[] = {
+    ITEM_EXP_CANDY_XS,
+    ITEM_RARE_CANDY,
+    ITEM_HP_UP,
+    ITEM_PROTEIN,
+    ITEM_IRON,
+    ITEM_CALCIUM,
+    ITEM_ZINC,
+    ITEM_CARBOS,
+    ITEM_LONELY_MINT,
+    ITEM_ADAMANT_MINT,
+    ITEM_NAUGHTY_MINT,
+    ITEM_BRAVE_MINT,
+    ITEM_BOLD_MINT,
+    ITEM_IMPISH_MINT,
+    ITEM_LAX_MINT,
+    ITEM_RELAXED_MINT,
+    ITEM_MODEST_MINT,
+    ITEM_MILD_MINT,
+    ITEM_RASH_MINT,
+    ITEM_QUIET_MINT,
+    ITEM_CALM_MINT,
+    ITEM_GENTLE_MINT,
+    ITEM_CAREFUL_MINT,
+    ITEM_SASSY_MINT,
+    ITEM_TIMID_MINT,
+    ITEM_HASTY_MINT,
+    ITEM_JOLLY_MINT,
+    ITEM_NAIVE_MINT,
+    ITEM_SERIOUS_MINT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTrainingInventory_SixBadges[] = {
+    ITEM_EXP_CANDY_XS,
+    ITEM_RARE_CANDY,
+    ITEM_HP_UP,
+    ITEM_PROTEIN,
+    ITEM_IRON,
+    ITEM_CALCIUM,
+    ITEM_ZINC,
+    ITEM_CARBOS,
+    ITEM_LONELY_MINT,
+    ITEM_ADAMANT_MINT,
+    ITEM_NAUGHTY_MINT,
+    ITEM_BRAVE_MINT,
+    ITEM_BOLD_MINT,
+    ITEM_IMPISH_MINT,
+    ITEM_LAX_MINT,
+    ITEM_RELAXED_MINT,
+    ITEM_MODEST_MINT,
+    ITEM_MILD_MINT,
+    ITEM_RASH_MINT,
+    ITEM_QUIET_MINT,
+    ITEM_CALM_MINT,
+    ITEM_GENTLE_MINT,
+    ITEM_CAREFUL_MINT,
+    ITEM_SASSY_MINT,
+    ITEM_TIMID_MINT,
+    ITEM_HASTY_MINT,
+    ITEM_JOLLY_MINT,
+    ITEM_NAIVE_MINT,
+    ITEM_SERIOUS_MINT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTrainingInventory_SevenBadges[] = {
+    ITEM_EXP_CANDY_XS,
+    ITEM_RARE_CANDY,
+    ITEM_HP_UP,
+    ITEM_PROTEIN,
+    ITEM_IRON,
+    ITEM_CALCIUM,
+    ITEM_ZINC,
+    ITEM_CARBOS,
+    ITEM_LONELY_MINT,
+    ITEM_ADAMANT_MINT,
+    ITEM_NAUGHTY_MINT,
+    ITEM_BRAVE_MINT,
+    ITEM_BOLD_MINT,
+    ITEM_IMPISH_MINT,
+    ITEM_LAX_MINT,
+    ITEM_RELAXED_MINT,
+    ITEM_MODEST_MINT,
+    ITEM_MILD_MINT,
+    ITEM_RASH_MINT,
+    ITEM_QUIET_MINT,
+    ITEM_CALM_MINT,
+    ITEM_GENTLE_MINT,
+    ITEM_CAREFUL_MINT,
+    ITEM_SASSY_MINT,
+    ITEM_TIMID_MINT,
+    ITEM_HASTY_MINT,
+    ITEM_JOLLY_MINT,
+    ITEM_NAIVE_MINT,
+    ITEM_SERIOUS_MINT,
+    ITEM_NONE
+};
+
+static const u16 sNettuxTrainingInventory_EightBadges[] = {
+    ITEM_EXP_CANDY_XS,
+    ITEM_RARE_CANDY,
+    ITEM_HP_UP,
+    ITEM_PROTEIN,
+    ITEM_IRON,
+    ITEM_CALCIUM,
+    ITEM_ZINC,
+    ITEM_CARBOS,
+    ITEM_LONELY_MINT,
+    ITEM_ADAMANT_MINT,
+    ITEM_NAUGHTY_MINT,
+    ITEM_BRAVE_MINT,
+    ITEM_BOLD_MINT,
+    ITEM_IMPISH_MINT,
+    ITEM_LAX_MINT,
+    ITEM_RELAXED_MINT,
+    ITEM_MODEST_MINT,
+    ITEM_MILD_MINT,
+    ITEM_RASH_MINT,
+    ITEM_QUIET_MINT,
+    ITEM_CALM_MINT,
+    ITEM_GENTLE_MINT,
+    ITEM_CAREFUL_MINT,
+    ITEM_SASSY_MINT,
+    ITEM_TIMID_MINT,
+    ITEM_HASTY_MINT,
+    ITEM_JOLLY_MINT,
+    ITEM_NAIVE_MINT,
+    ITEM_SERIOUS_MINT,
+    ITEM_NONE
+};
+
+static const u16 *const sNettuxTrainingInventories[] =
+{
+    sNettuxTrainingInventory_ZeroBadges,
+    sNettuxTrainingInventory_OneBadge,
+    sNettuxTrainingInventory_TwoBadges,
+    sNettuxTrainingInventory_ThreeBadges,
+    sNettuxTrainingInventory_FourBadges,
+    sNettuxTrainingInventory_FiveBadges,
+    sNettuxTrainingInventory_SixBadges,
+    sNettuxTrainingInventory_SevenBadges,
+    sNettuxTrainingInventory_EightBadges
+};
+
+static const u16 sNettuxMartInventory_ZeroBadges[] = {
+    ITEM_POKE_BALL,
+    ITEM_POTION,
+    ITEM_ANTIDOTE,
+    ITEM_BURN_HEAL,
+    ITEM_ICE_HEAL,
+    ITEM_AWAKENING,
+    ITEM_PARALYZE_HEAL,
+    ITEM_REVIVE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxMartInventory_OneBadge[] = {
+    ITEM_POKE_BALL,
+    ITEM_GREAT_BALL,
+    ITEM_POTION,
+    ITEM_SUPER_POTION,
+    ITEM_ANTIDOTE,
+    ITEM_BURN_HEAL,
+    ITEM_ICE_HEAL,
+    ITEM_AWAKENING,
+    ITEM_PARALYZE_HEAL,
+    ITEM_REVIVE,
+    ITEM_NONE
+};
+
+static const u16 sNettuxMartInventory_TwoBadges[] = {
+    ITEM_POKE_BALL,
+    ITEM_GREAT_BALL,
+    ITEM_POTION,
+    ITEM_SUPER_POTION,
+    ITEM_ANTIDOTE,
+    ITEM_BURN_HEAL,
+    ITEM_ICE_HEAL,
+    ITEM_AWAKENING,
+    ITEM_PARALYZE_HEAL,
+    ITEM_REVIVE,
+    ITEM_POKE_DOLL,
+    ITEM_NONE
+};
+
+static const u16 sNettuxMartInventory_ThreeBadges[] = {
+    ITEM_POKE_BALL,
+    ITEM_GREAT_BALL,
+    ITEM_POTION,
+    ITEM_SUPER_POTION,
+    ITEM_ANTIDOTE,
+    ITEM_BURN_HEAL,
+    ITEM_ICE_HEAL,
+    ITEM_AWAKENING,
+    ITEM_PARALYZE_HEAL,
+    ITEM_REVIVE,
+    ITEM_REPEL,
+    ITEM_POKE_DOLL,
+    ITEM_NONE
+};
+
+static const u16 sNettuxMartInventory_FourBadges[] = {
+    ITEM_POKE_BALL,
+    ITEM_GREAT_BALL,
+    ITEM_POTION,
+    ITEM_SUPER_POTION,
+    ITEM_HYPER_POTION,
+    ITEM_ANTIDOTE,
+    ITEM_BURN_HEAL,
+    ITEM_ICE_HEAL,
+    ITEM_AWAKENING,
+    ITEM_PARALYZE_HEAL,
+    ITEM_REVIVE,
+    ITEM_REPEL,
+    ITEM_POKE_DOLL,
+    ITEM_NONE
+};
+
+static const u16 sNettuxMartInventory_FiveBadges[] = {
+    ITEM_POKE_BALL,
+    ITEM_GREAT_BALL,
+    ITEM_ULTRA_BALL,
+    ITEM_POTION,
+    ITEM_SUPER_POTION,
+    ITEM_HYPER_POTION,
+    ITEM_ANTIDOTE,
+    ITEM_BURN_HEAL,
+    ITEM_ICE_HEAL,
+    ITEM_AWAKENING,
+    ITEM_PARALYZE_HEAL,
+    ITEM_REVIVE,
+    ITEM_REPEL,
+    ITEM_SUPER_REPEL,
+    ITEM_POKE_DOLL,
+    ITEM_NONE
+};
+
+static const u16 sNettuxMartInventory_SixBadges[] = {
+    ITEM_POKE_BALL,
+    ITEM_GREAT_BALL,
+    ITEM_ULTRA_BALL,
+    ITEM_POTION,
+    ITEM_SUPER_POTION,
+    ITEM_HYPER_POTION,
+    ITEM_ANTIDOTE,
+    ITEM_BURN_HEAL,
+    ITEM_ICE_HEAL,
+    ITEM_AWAKENING,
+    ITEM_PARALYZE_HEAL,
+    ITEM_FULL_HEAL,
+    ITEM_REVIVE,
+    ITEM_REPEL,
+    ITEM_SUPER_REPEL,
+    ITEM_POKE_DOLL,
+    ITEM_NONE
+};
+
+static const u16 sNettuxMartInventory_SevenBadges[] = {
+    ITEM_POKE_BALL,
+    ITEM_GREAT_BALL,
+    ITEM_ULTRA_BALL,
+    ITEM_POTION,
+    ITEM_SUPER_POTION,
+    ITEM_HYPER_POTION,
+    ITEM_MAX_POTION,
+    ITEM_ANTIDOTE,
+    ITEM_BURN_HEAL,
+    ITEM_ICE_HEAL,
+    ITEM_AWAKENING,
+    ITEM_PARALYZE_HEAL,
+    ITEM_FULL_HEAL,
+    ITEM_REVIVE,
+    ITEM_REPEL,
+    ITEM_SUPER_REPEL,
+    ITEM_MAX_REPEL,
+    ITEM_POKE_DOLL,
+    ITEM_NONE
+};
+
+static const u16 sNettuxMartInventory_EightBadges[] = {
+    ITEM_POKE_BALL,
+    ITEM_GREAT_BALL,
+    ITEM_ULTRA_BALL,
+    ITEM_POTION,
+    ITEM_SUPER_POTION,
+    ITEM_HYPER_POTION,
+    ITEM_MAX_POTION,
+    ITEM_FULL_RESTORE,
+    ITEM_ANTIDOTE,
+    ITEM_BURN_HEAL,
+    ITEM_ICE_HEAL,
+    ITEM_AWAKENING,
+    ITEM_PARALYZE_HEAL,
+    ITEM_FULL_HEAL,
+    ITEM_REVIVE,
+    ITEM_REPEL,
+    ITEM_SUPER_REPEL,
+    ITEM_MAX_REPEL,
+    ITEM_MAX_ETHER,
+    ITEM_POKE_DOLL,
+    ITEM_NONE
+};
+
+static const u16 *const sNettuxMartInventories[] =
+{
+    sNettuxMartInventory_ZeroBadges,
+    sNettuxMartInventory_OneBadge,
+    sNettuxMartInventory_TwoBadges,
+    sNettuxMartInventory_ThreeBadges,
+    sNettuxMartInventory_FourBadges,
+    sNettuxMartInventory_FiveBadges,
+    sNettuxMartInventory_SixBadges,
+    sNettuxMartInventory_SevenBadges,
+    sNettuxMartInventory_EightBadges
+};
+// nettux
+
 // Functions
 static u8 CreateShopMenu(u8 martType)
 {
@@ -382,9 +1324,43 @@ static u8 GetMartTypeFromItemList(u32 martType)
     return MART_TYPE_REGULAR;
 }
 
+static u8 GetNumberOfBadges(void)
+{
+    u16 badgeFlag;
+    u8 count = 0;
+
+    for (badgeFlag = FLAG_BADGE01_GET; badgeFlag < FLAG_BADGE01_GET + NUM_BADGES; badgeFlag++)
+    {
+        if (FlagGet(badgeFlag))
+            count++;
+    }
+
+    return count;
+}
+
 static void SetShopItemsForSale(const u16 *items)
 {
-    sShopData.itemList = items;
+    u8 badgeCount = GetNumberOfBadges();
+    if (items[0] == ITEM_PREMIER_BALL) {
+	// standard mart
+	sShopData.itemList = sNettuxMartInventories[badgeCount];
+    } else if (items[0] == ITEM_EXP_CANDY_XS) {
+	// training mart
+	sShopData.itemList = sNettuxTrainingInventories[badgeCount];
+    } else if (items[0] == ITEM_EXP_SHARE) {
+	// training mart
+	sShopData.itemList = sNettuxBattleInventories[badgeCount];
+    } else if (items[0] == ITEM_TM_PROTECT) {
+	// training mart
+	sShopData.itemList = sNettuxTMInventories[badgeCount];
+    } else if (items[0] == ITEM_LINKING_CORD) {
+	// training mart
+	sShopData.itemList = sNettuxEvolveInventories[badgeCount];
+    } else {
+	// passed in item list directly
+        sShopData.itemList = items;
+    }
+
     sShopData.itemCount = 0;
     if (sShopData.itemList[0] == 0)
         return;
@@ -1357,4 +2333,8 @@ void CreateDecorationShop2Menu(const u16 *itemsForSale)
     CreateShopMenu(MART_TYPE_DECOR2);
     SetShopMenuCallback(ScriptContext_Enable);
 }
+
+
+
+
 

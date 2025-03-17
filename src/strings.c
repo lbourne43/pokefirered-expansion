@@ -1374,3 +1374,12 @@ const u8 gText_SpDef[] = _("SP. DEF");
 const u8 gText_AM[] = _("AM");
 const u8 gText_PM[] = _("PM");
 const u8 gText_CannotSendMonToBoxHM[] = _("Cannot send that mon to the box,\nbecause it knows a HM move.{PAUSE_UNTIL_PRESS}");
+
+const u8 gText_NettuxNameRater[] = _("Name Rater");
+const u8 gText_NettuxMoveRelearner[] = _("Move Relearner");
+const u8 gText_NettuxHyperTrainer[] = _("Hyper Train!");
+
+const u8 gText_NettuxBattleMart[] = _("Battle Mart");
+const u8 gText_NettuxTrainingMart[] = _("Training Mart");
+const u8 gText_NettuxTMMart[] = _("TM Mart");
+const u8 gText_NettuxEvolveMart[] = _("Evolvution Mart");

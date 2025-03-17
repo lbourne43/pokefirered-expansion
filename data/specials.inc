@@ -464,4 +464,10 @@ gSpecials::
 	def_special GetLastUsedSprayType
 	def_special TrySkyBattle
 	def_special TryPrepareSecondApproachingTrainer
+        def_special MaxHpIvs
+        def_special MaxAtkIvs
+        def_special MaxDefIvs
+        def_special MaxSpdIvs
+        def_special MaxSpAtkIvs
+        def_special MaxSpDefIvs
 gSpecialsEnd::
