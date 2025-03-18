@@ -50,8 +50,15 @@ ViridianForest_EventScript_Doug::
 
 ViridianForest_EventScript_Sammy::
 	trainerbattle_single TRAINER_BUG_CATCHER_SAMMY, ViridianForest_Text_SammyIntro, ViridianForest_Text_SammyDefeat
+        specialvar VAR_RESULT, ShouldTryRematchBattle
+        goto_if_eq VAR_RESULT, TRUE, ViridianForest_EventScript_SammyRematch
 	msgbox ViridianForest_Text_SammyPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+ViridianForest_EventScript_SammyRematch::
+        trainerbattle_single TRAINER_BUG_CATCHER_SAMMY, ViridianForest_Text_SammyIntro, ViridianForest_Text_SammyDefeat
+        msgbox ViridianForest_Text_SammyPostBattle, MSGBOX_AUTOCLOSE
+        end
 
 ViridianForest_EventScript_Anthony::
 	trainerbattle_single TRAINER_BUG_CATCHER_ANTHONY, ViridianForest_Text_AnthonyIntro, ViridianForest_Text_AnthonyDefeat

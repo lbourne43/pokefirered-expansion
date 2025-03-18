@@ -888,7 +888,8 @@ static u8 GetVsSeekerResponseInArea(const struct RematchData * vsSeekerData)
                 else if (response == VSSEEKER_SINGLE_RESP_NO)
                     rval = 0; // Definitely no
                 // Otherwise it's a 70% chance to want a rematch
-                if (rval < 30)
+                //if (rval < 30)
+                if (rval < 0)
                 {
                     StartTrainerObjectMovementScript(&sVsSeeker->trainerInfo[vsSeekerIdx], sMovementScript_TrainerNoRematch);
                     sVsSeeker->trainerDoesNotWantRematch = 1;

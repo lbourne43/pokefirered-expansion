@@ -381,6 +381,7 @@ static const u16 sNettuxBattleInventory_ZeroBadges[] = {
     ITEM_SPELL_TAG,
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
+    ITEM_VS_SEEKER,
     ITEM_NONE
 };
 
@@ -404,6 +405,7 @@ static const u16 sNettuxBattleInventory_OneBadge[] = {
     ITEM_SPELL_TAG,
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
+    ITEM_VS_SEEKER,
     ITEM_NONE
 };
 
@@ -427,6 +429,7 @@ static const u16 sNettuxBattleInventory_TwoBadges[] = {
     ITEM_SPELL_TAG,
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
+    ITEM_VS_SEEKER,
     ITEM_NONE
 };
 
@@ -450,6 +453,7 @@ static const u16 sNettuxBattleInventory_ThreeBadges[] = {
     ITEM_SPELL_TAG,
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
+    ITEM_VS_SEEKER,
     ITEM_NONE
 };
 
@@ -473,6 +477,7 @@ static const u16 sNettuxBattleInventory_FourBadges[] = {
     ITEM_SPELL_TAG,
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
+    ITEM_VS_SEEKER,
     ITEM_NONE
 };
 
@@ -496,6 +501,7 @@ static const u16 sNettuxBattleInventory_FiveBadges[] = {
     ITEM_SPELL_TAG,
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
+    ITEM_VS_SEEKER,
     ITEM_NONE
 };
 
@@ -519,6 +525,7 @@ static const u16 sNettuxBattleInventory_SixBadges[] = {
     ITEM_SPELL_TAG,
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
+    ITEM_VS_SEEKER,
     ITEM_NONE
 };
 
@@ -542,6 +549,7 @@ static const u16 sNettuxBattleInventory_SevenBadges[] = {
     ITEM_SPELL_TAG,
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
+    ITEM_VS_SEEKER,
     ITEM_NONE
 };
 
@@ -565,6 +573,7 @@ static const u16 sNettuxBattleInventory_EightBadges[] = {
     ITEM_SPELL_TAG,
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
+    ITEM_VS_SEEKER,
     ITEM_NONE
 };
 
@@ -587,6 +596,15 @@ static const u16 sNettuxTMInventory_ZeroBadges[] = {
     ITEM_TM_PROTECT,
     ITEM_TM_RAIN_DANCE,
     ITEM_TM_REFLECT,
+    ITEM_TM51,
+    ITEM_TM52,
+    ITEM_TM53,
+    ITEM_TM58,
+    ITEM_TM59,
+    ITEM_TM63,
+    ITEM_TM64,
+    ITEM_TM65,
+    ITEM_TM66,
     ITEM_NONE
 };
 
@@ -594,8 +612,15 @@ static const u16 sNettuxTMInventory_OneBadge[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,
-    ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM51,
+    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM58,
+    ITEM_TM59,
+    ITEM_TM63,
+    ITEM_TM64,
+    ITEM_TM65,
+    ITEM_TM66,
     ITEM_NONE
 };
 
@@ -603,8 +628,15 @@ static const u16 sNettuxTMInventory_TwoBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,
-    ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM51,
+    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM58,
+    ITEM_TM59,
+    ITEM_TM63,
+    ITEM_TM64,
+    ITEM_TM65,
+    ITEM_TM66,
     ITEM_NONE
 };
 
@@ -612,8 +644,15 @@ static const u16 sNettuxTMInventory_ThreeBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,
-    ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM51,
+    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM58,
+    ITEM_TM59,
+    ITEM_TM63,
+    ITEM_TM64,
+    ITEM_TM65,
+    ITEM_TM66,
     ITEM_NONE
 };
 
@@ -621,8 +660,15 @@ static const u16 sNettuxTMInventory_FourBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,
-    ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM51,
+    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM58,
+    ITEM_TM59,
+    ITEM_TM63,
+    ITEM_TM64,
+    ITEM_TM65,
+    ITEM_TM66,
     ITEM_NONE
 };
 
@@ -630,8 +676,15 @@ static const u16 sNettuxTMInventory_FiveBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,
-    ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM51,
+    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM58,
+    ITEM_TM59,
+    ITEM_TM63,
+    ITEM_TM64,
+    ITEM_TM65,
+    ITEM_TM66,
     ITEM_NONE
 };
 
@@ -639,8 +692,15 @@ static const u16 sNettuxTMInventory_SixBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,
-    ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM51,
+    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM58,
+    ITEM_TM59,
+    ITEM_TM63,
+    ITEM_TM64,
+    ITEM_TM65,
+    ITEM_TM66,
     ITEM_NONE
 };
 
@@ -648,8 +708,15 @@ static const u16 sNettuxTMInventory_SevenBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,
-    ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM51,
+    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM58,
+    ITEM_TM59,
+    ITEM_TM63,
+    ITEM_TM64,
+    ITEM_TM65,
+    ITEM_TM66,
     ITEM_NONE
 };
 
@@ -657,8 +724,15 @@ static const u16 sNettuxTMInventory_EightBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,
-    ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM51,
+    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM58,
+    ITEM_TM59,
+    ITEM_TM63,
+    ITEM_TM64,
+    ITEM_TM65,
+    ITEM_TM66,
     ITEM_NONE
 };
 

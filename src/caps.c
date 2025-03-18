@@ -10,7 +10,7 @@ u32 GetCurrentLevelCap(void)
     static const u32 sLevelCapFlagMap[][2] =
     {
         {FLAG_BADGE01_GET,    23},  // BROCK
-        {FLAG_BADGE02_GET,    34},  // MISTY
+        {FLAG_BADGE02_GET,    36},  // MISTY
         {FLAG_BADGE03_GET,    42},  // LT SURGE
         {FLAG_BADGE04_GET,    48},  // ERIKA
 				    // Rocket Stuff

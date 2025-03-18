@@ -15,25 +15,21 @@ PewterCity_Mart_EventScript_Clerk::
 	faceplayer
 	message Text_MayIHelpYou
 	waitmessage
-	pokemart 0
+	pokemart PewterCity_Mart_Items
 	msgbox Text_PleaseComeAgain
 	release
 	end
 
-	.align 2
+        .align 2
 PewterCity_Mart_Items::
-	.2byte ITEM_PREMIER_BALL
-	.2byte ITEM_POKE_BALL
-	.2byte ITEM_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
-	.2byte ITEM_BURN_HEAL
-	.2byte ITEM_ESCAPE_ROPE
-	.2byte ITEM_REPEL
-	.2byte ITEM_NONE
-	release
-	end
+        .2byte ITEM_PREMIER_BALL
+        .2byte ITEM_POKE_BALL
+        .2byte ITEM_POTION
+        .2byte ITEM_ANTIDOTE
+        .2byte ITEM_PARALYZE_HEAL
+        .2byte ITEM_NONE
+        release
+        end
 
 PewterCity_NettuxHelper_EventScript_Clerk::
         call NettuxHelper_EventScript_MartHelper
