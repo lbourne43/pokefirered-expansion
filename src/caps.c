@@ -9,16 +9,34 @@ u32 GetCurrentLevelCap(void)
 {
     static const u32 sLevelCapFlagMap[][2] =
     {
-        {FLAG_BADGE01_GET,    23},  // BROCK
-        {FLAG_BADGE02_GET,    36},  // MISTY
-        {FLAG_BADGE03_GET,    42},  // LT SURGE
-        {FLAG_BADGE04_GET,    48},  // ERIKA
-				    // Rocket Stuff
-        {FLAG_BADGE05_GET,    60},  // SABRINA
-        {FLAG_BADGE06_GET,    74},  // KOGA
-        {FLAG_BADGE07_GET,    84},  // BLAINE
-        {FLAG_BADGE08_GET,    94},  // GIOVANNI
-        {FLAG_SYS_GAME_CLEAR, 100}, // IBLUE
+#if NETTUX_NUZLOCKE
+        {FLAG_BADGE01_GET,    14},  // BROCK
+        {FLAG_GOT_FAME_CHECKER, 18},// 28 Rival
+        {FLAG_BADGE02_GET,    21},  // MISTY
+        {FLAG_BADGE03_GET,    24},  // LT SURGE
+        {FLAG_BADGE04_GET,    29},  // ERIKA
+                                    // 62 Rocket Stuff
+        {FLAG_BADGE05_GET,    43},  // SABRINA
+        {FLAG_BADGE06_GET,    43},  // KOGA
+        {FLAG_BADGE07_GET,    47},  // BLAINE
+        {FLAG_BADGE08_GET,    50},  // GIOVANNI
+                                    // 95 Rival
+        {FLAG_SYS_GAME_CLEAR, 63}, // BLUE
+#else
+        {FLAG_BADGE01_GET,    20},  // BROCK
+	{FLAG_GOT_FAME_CHECKER,	28},// 28 Rival
+        {FLAG_BADGE02_GET,    32},  // MISTY
+	{FLAG_GOT_HM01,       36},   // 36 Rival
+        {FLAG_BADGE03_GET,    40},  // LT SURGE
+        {FLAG_BADGE04_GET,    55},  // ERIKA
+				    // 62 Rocket Stuff
+        {FLAG_BADGE05_GET,    67},  // SABRINA
+        {FLAG_BADGE06_GET,    72},  // KOGA
+        {FLAG_BADGE07_GET,    80},  // BLAINE
+        {FLAG_BADGE08_GET,    92},  // GIOVANNI
+				    // 95 Rival
+        {FLAG_SYS_GAME_CLEAR, 100}, // BLUE
+#endif
     };
 
     u32 i;

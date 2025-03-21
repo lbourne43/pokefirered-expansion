@@ -266,6 +266,25 @@ void ItemUseOutOfBattle_Bike(u8 taskId)
         PrintNotTheTimeToUseThat(taskId, gTasks[taskId].data[3]);
 }
 
+// nettux cleansetag toggle
+void ItemUseOutOfBattle_CleanseTag(u8 taskId)
+{
+    bool8  cleanseTagOn = FlagGet(FLAG_CLEANSE_TAG);
+    if (!cleanseTagOn)
+    {
+        FlagSet(FLAG_CLEANSE_TAG);
+        PlaySE(SE_EXP_MAX);
+        DisplayItemMessageInBag(taskId, FONT_NORMAL, gText_CleanseTagTurnOn, Task_ReturnToBagFromContextMenu);
+    }
+    else
+    {
+        FlagClear(FLAG_CLEANSE_TAG);
+        PlaySE(SE_PC_OFF);
+        DisplayItemMessageInBag(taskId, FONT_NORMAL, gText_CleanseTagTurnOff, Task_ReturnToBagFromContextMenu);
+    }
+}
+
+
 static void ItemUseOnFieldCB_Bicycle(u8 taskId)
 {
     if (!TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_MACH_BIKE | PLAYER_AVATAR_FLAG_ACRO_BIKE))

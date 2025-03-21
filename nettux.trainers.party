@@ -1238,19 +1238,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route24 */
 
 Sandslash
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Arbok
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Furret
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Mudsdale
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_YOUNGSTER_JOEY ===
@@ -1264,19 +1264,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route25 */
 
 Lopunny
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Staravia
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Mightyena
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Luxray
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_YOUNGSTER_DAN ===
@@ -1290,19 +1290,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route25 */
 
 Slowpoke
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Weepinbell
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Numel
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Ampharos
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_YOUNGSTER_CHAD ===
@@ -1328,29 +1328,12 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Luxray  
-Ability: Intimidate  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Linoone  
-Ability: Pickup  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Staraptor  
-Ability: Intimidate  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Arcanine Hisui  
-Ability: Intimidate  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nidoran M
+Level: 42
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_YOUNGSTER_EDDIE ===
 Name: EDDIE
@@ -1358,29 +1341,12 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route11 */
+Double Battle: No
+AI: Check Bad Move
 
-Furret  
-Ability: Run Away  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Staraptor
-Ability: Intimidate  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Luxray
-Ability: Rivalry  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Arcanine  
-Ability: Intimidate  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Ekans
+Level: 42
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_YOUNGSTER_DILLON ===
 Name: DILLON
@@ -1388,29 +1354,16 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route11 */
+Double Battle: No
+AI: Check Bad Move
 
-Pachirisu  
-Ability: Volt Absorb  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Sandshrew
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Linoone
-Ability: Pickup  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Corvisquire
-Ability: Keen Eye  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Mudsdale
-Ability: Stamina  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Zubat
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_YOUNGSTER_YASU ===
 Name: YASU
@@ -1418,29 +1371,20 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route11 */
+Double Battle: No
+AI: Check Bad Move
 
-Lucario
-Ability: Inner Focus  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Rattata
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Bibarel 
-Ability: Simple  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Rattata
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Staraptor 
-Ability: Keen Eye  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Lokix
-Ability: Swarm  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Raticate
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_YOUNGSTER_DAVE ===
 Name: DAVE
@@ -1448,29 +1392,16 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route11 */
+Double Battle: No
+AI: Check Bad Move
 
-Linoone  
-Ability: Pickup  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nidoran M
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Drilbur  
-Ability: Sand Rush  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Fletchinder  
-Ability: Flame Body  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Sneasel  
-Ability: Inner Focus  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nidorino
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_YOUNGSTER_BEN_2 ===
 Name: BEN
@@ -1497,14 +1428,14 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
-/* Location: Vermilion_Forest */
+/* Location: PewterCity_Gym */
 
 Beedrill
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Butterfree
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BUG_CATCHER_DOUG ===
@@ -1515,18 +1446,18 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
-/* Location: Vermilion_Forest */
+/* Location: PewterCity_Gym */
 
 Pinsir
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Vivillon
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Ledian
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BUG_CATCHER_SAMMY ===
@@ -1537,22 +1468,22 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
-/* Location: Vermilion_Forest */
+/* Location: PewterCity_Gym */
 
 Beedrill
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Spinarak
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Ninjask
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Scyther
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BUG_CATCHER_COLTON ===
@@ -1696,19 +1627,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route24 */
 
 Vivillon
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Houndour
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Lopunny
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Croagunk
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BUG_CATCHER_KEIGO ===
@@ -1717,29 +1648,20 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route6 */
+Double Battle: No
+AI: Check Bad Move
 
-Masquerain  
-Ability: Intimidate  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Weedle
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Ariados  
-Ability: Insomnia  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Caterpie
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Floatzel  
-Ability: Swift Swim  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Magneton  
-Ability: Sturdy  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Weedle
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BUG_CATCHER_ELIJAH ===
 Name: ELIJAH
@@ -1747,29 +1669,12 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route6 */
+Double Battle: No
+AI: Check Bad Move
 
-Vivillon  
-Ability: Compound Eyes  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Larvesta  
-Ability: Flame Body  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Lombre  
-Ability: Swift Swim  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Sneasel  
-Ability: Inner Focus  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Butterfree
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BUG_CATCHER_2 ===
 Name: PH
@@ -1992,19 +1897,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route24 */
 
 Nidoking
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Nidoqueen
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Liepard
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Toxtricity Amped
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LASS_ALI ===
@@ -2018,19 +1923,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route24 */
 
 Staravia
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Breloom
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Kilowattrel
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Kirlia
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LASS_2 ===
@@ -2061,19 +1966,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route25 */
 
 Gloom
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Pidgeotto
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Kadabra
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Magmar
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LASS_ANN ===
@@ -2082,29 +1987,16 @@ Class: Lass
 Pic: Lass
 Gender: Male
 Music: Female
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Hattrem  
-Ability: Healer  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Pidgey
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Whimsicott  
-Ability: Prankster  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Delcatty  
-Ability: Cute Charm  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Vivillon  
-Ability: Compound Eyes  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nidoran F
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LASS_DAWN ===
 Name: DAWN
@@ -2112,29 +2004,16 @@ Class: Lass
 Pic: Lass
 Gender: Male
 Music: Female
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Togetic  
-Ability: Serene Grace  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Rattata
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Lopunny  
-Ability: Cute Charm  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Gardevoir  
-Ability: Synchronize  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Roserade  
-Ability: Natural Cure  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Pikachu
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LASS_PAIGE ===
 Name: PAIGE
@@ -2260,29 +2139,16 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Floatzel  
-Ability: Swift Swim  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Machop
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Machoke  
-Ability: Guts  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Mantyke  
-Ability: Water Absorb  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Bibarel  
-Ability: Simple  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Shellder
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SAILOR_TREVOR ===
 Name: TREVOR
@@ -2290,29 +2156,16 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Azumarill  
-Ability: Huge Power  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Machop
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Pelipper  
-Ability: Drizzle  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Pawniard  
-Ability: Defiant  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Machoke  
-Ability: Guts  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Tentacool
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SAILOR_LEONARD ===
 Name: LEONARD
@@ -2320,29 +2173,12 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Buizel  
-Ability: Swift Swim  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Croagunk  
-Ability: Dry Skin  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Lombre  
-Ability: Rain Dish  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Pidgeot  
-Ability: Keen Eye  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Shellder
+Level: 42
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SAILOR_DUNCAN ===
 Name: DUNCAN
@@ -2350,29 +2186,20 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Wartortle  
-Ability: Torrent  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Horsea
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Machoke
-Ability: Guts  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Shellder
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Octilery
-Ability: Hustle  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Manectric
-Ability: Static  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Tentacool
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SAILOR_HUEY ===
 Name: HUEY
@@ -2380,29 +2207,16 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Sealeo
-Ability: Thick Fat  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Tentacool
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Toxicroak  
-Ability: Dry Skin  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Pelipper
-Ability: Keen Eye  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Magneton  
-Ability: Magnet Pull  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Staryu
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SAILOR_DYLAN ===
 Name: DYLAN
@@ -2410,29 +2224,20 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Mantine  
-Ability: Water Absorb  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Horsea
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Lucario  
-Ability: Inner Focus  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Horsea
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Azumarill  
-Ability: Huge Power  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Staraptor
-Ability: Keen Eye  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Horsea
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SAILOR_PHILLIP ===
 Name: PHILLIP
@@ -2440,29 +2245,12 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Octillery  
-Ability: Sniper  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Mudsdale
-Ability: Stamina  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Togetic  
-Ability: Serene Grace  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Electrode-Hisui  
-Ability: Soundproof  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Machop
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SAILOR_DWAYNE ===
 Name: DWAYNE
@@ -2470,16 +2258,15 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* VermilionCity_Gym */
+Double Battle: No
+AI: Check Bad Move
 
 Pikachu
-Level: 38
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Pikachu
-Level: 38
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CAMPER_LIAM ===
@@ -2493,22 +2280,18 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon 
 /* Location: PewterCity_Gym */
 
 Geodude
-Level: 18
+Level: 20
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Tackle
+- Defense Curl
+- Rock Throw
 
 Sandshrew
-Level: 18
+Level: 20
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Roggenrola  
-Ability: Sturdy  
-Level: 18  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Larvitar  
-Ability: Guts  
-Level: 18  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Scratch
+- Defense Curl
+- Sand Attack
 
 === TRAINER_CAMPER_SHANE ===
 Name: SHANE
@@ -2521,19 +2304,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route24 */
 
 Linoone
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Arbok
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Charcadet
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Pawniard
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CAMPER_ETHAN ===
@@ -2547,19 +2330,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route24 */
 
 Primeape
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Drednaw
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Drifblim
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Bibarel
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CAMPER_RICKY ===
@@ -2568,29 +2351,12 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route6 */
+Double Battle: No
+AI: Check Bad Move
 
-Furret  
-Ability: Run Away  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Roserade  
-Ability: Natural Cure  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 SpD / 24 Spe  
-
-Stantler  
-Ability: Intimidate  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Bibarel  
-Ability: Simple  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Squirtle
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CAMPER_JEFF ===
 Name: JEFF
@@ -2598,29 +2364,16 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route6 */
+Double Battle: No
+AI: Check Bad Move
 
-Luxio  
-Ability: Rivalry  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Spearow
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Staravia  
-Ability: Intimidate  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Grotle  
-Ability: Overgrow  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Ledian  
-Ability: Early Bird  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Raticate
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CAMPER_2 ===
 Name: PH
@@ -2683,24 +2436,11 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Male
 Music: Girl
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: CeruleanCity_Gym */
-
-Pelipper
-Level: 30
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Lombre
-Level: 30
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Double Battle: No
+AI: Check Bad Move
 
 Goldeen
-Level: 30
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Buizel
-Level: 30
+Level: 38
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_PICNICKER_NANCY ===
@@ -2709,29 +2449,16 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Male
 Music: Girl
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route6 */
+Double Battle: No
+AI: Check Bad Move
 
-Lopunny  
-Ability: Cute Charm  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Rattata
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Lombre  
-Ability: Swift Swim  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Flaaffy  
-Ability: Static  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Noctowl  
-Ability: Insomnia  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Pikachu
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_PICNICKER_ISABELLE ===
 Name: ISABELLE
@@ -2742,25 +2469,17 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Togetic  
-Ability: Serene Grace  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Pidgey
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Miltank  
-Ability: Thick Fat  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Pidgey
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Pachirisu  
-Ability: Volt Absorb  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Linoone  
-Ability: Pickup  
-Level: 32  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Pidgey
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_PICNICKER_KELSEY ===
 Name: KELSEY
@@ -2773,19 +2492,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route24 */
 
 Nidoking
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Nidoqueen
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Skiddo
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Grumpig
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_PICNICKER_ALICIA ===
@@ -3374,19 +3093,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route25 */
 
 Machoke
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Golem
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Gallade
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Boldore
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_HIKER_NOB ===
@@ -3400,19 +3119,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route24 */
 
 Golem
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Boldore
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Machoke
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Cranidos
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_HIKER_WAYNE ===
@@ -3426,19 +3145,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route25 */
 
 Steelix
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Lucario
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Numel
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Drednaw
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_HIKER_ALAN ===
@@ -4278,11 +3997,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Voltorb
-Level: 38
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Magnemite
-Level: 38
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_ENGINEER_BRAXTON ===
@@ -4291,29 +4010,12 @@ Class: Engineer
 Pic: Engineer
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route11 */
+Double Battle: No
+AI: Check Bad Move
 
-Magneton  
-Ability: Sturdy  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Flaaffy  
-Ability: Static  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Pawniard  
-Ability: Defiant  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Rotom  
-Ability: Levitate  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Magnemite
+Level: 42
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_ENGINEER_BERNIE ===
 Name: BERNIE
@@ -4321,29 +4023,20 @@ Class: Engineer
 Pic: Engineer
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route11 */
+Double Battle: No
+AI: Check Bad Move
 
-Toxtricity Amped  
-Ability: Punk Rock  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Magnemite
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Magneton  
-Ability: Sturdy  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Magnemite
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Boldore  
-Ability: Sturdy  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Voltorb Hisui
-Ability: Soundproof  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Magneton
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_FISHERMAN_DALE ===
 Name: DALE
@@ -4351,29 +4044,20 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Azumarill  
-Ability: Huge Power  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Goldeen
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Mantine  
-Ability: Water Absorb  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Tentacool
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Gastrodon  
-Ability: Storm Drain  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Whiscash  
-Ability: Oblivious  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Goldeen
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_FISHERMAN_BARNY ===
 Name: BARNY
@@ -4381,29 +4065,20 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Seaking  
-Ability: Swift Swim  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Tentacool
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Octillery  
-Ability: Sniper  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Staryu
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Floatzel  
-Ability: Swift Swim  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Cloyster  
-Ability: Skill Link  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Shellder
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_FISHERMAN_NED ===
 Name: NED
@@ -4596,26 +4271,16 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: CeruleanCity_Gym */
+Double Battle: No
+AI: Check Bad Move
 
-Mantine
-Level: 30
+Horsea
+Level: 32
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Krabby
-Level: 30
+Shellder
+Level: 32
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Azumarill
-Level: 30
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Shellos
-Level: 30
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
 
 === TRAINER_SWIMMER_MALE_RICHARD ===
 Name: RICHARD
@@ -5058,29 +4723,16 @@ Class: Gamer
 Pic: Gamer
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route11 */
+Double Battle: No
+AI: Check Bad Move
 
-Raichu  
-Ability: Static  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Poliwag
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Magneton  
-Ability: Sturdy  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Kadabra  
-Ability: Inner Focus  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Persian  
-Ability: Technician  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Horsea
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GAMER_JASPER ===
 Name: JASPER
@@ -5088,29 +4740,16 @@ Class: Gamer
 Pic: Gamer
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route11 */
+Double Battle: No
+AI: Check Bad Move
 
-Noctowl  
-Ability: Insomnia  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Bellsprout
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Grumpig  
-Ability: Thick Fat  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Lopunny  
-Ability: Cute Charm  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Drifblim  
-Ability: Aftermath  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Oddish
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GAMER_DIRK ===
 Name: DIRK
@@ -5118,29 +4757,16 @@ Class: Gamer
 Pic: Gamer
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route11 */
+Double Battle: No
+AI: Check Bad Move
 
-Floatzel  
-Ability: Swift Swim  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Voltorb
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Sneasel  
-Ability: Inner Focus  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Luxio  
-Ability: Intimidate  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Furret  
-Ability: Keen Eye  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Magnemite
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GAMER_DARIAN ===
 Name: DARIAN
@@ -5148,29 +4774,16 @@ Class: Gamer
 Pic: Gamer
 Gender: Male
 Music: Male
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: Route11 */
+Double Battle: No
+AI: Check Bad Move
 
-Pachirisu  
-Ability: Volt Absorb  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Growlithe
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Ariados  
-Ability: Insomnia  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Stantler  
-Ability: Intimidate  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Koffing  
-Ability: Levitate  
-Level: 34  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Vulpix
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GAMER_STAN ===
 Name: STAN
@@ -6472,11 +6085,11 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon 
 /* Location: Route22 */
 
 Pidgey
-Level: 14
+Level: 16
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Squirtle
-Level: 14
+Wartortle
+Level: 16
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR ===
@@ -6490,11 +6103,11 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon 
 /* Location: Route22 */
 
 Pidgey
-Level: 14
+Level: 16
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Bulbasaur
-Level: 14
+Ivysaur
+Level: 16
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER ===
@@ -6508,11 +6121,11 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon 
 /* Location: Route22 */
 
 Pidgey
-Level: 14
+Level: 16
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Charmander
-Level: 14
+Charmeleon
+Level: 16
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_RIVAL_CERULEAN_SQUIRTLE ===
@@ -7278,24 +6891,15 @@ Class: Team Rocket
 Pic: Rocket Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: CeruleanCity */
+Double Battle: No
+AI: Check Bad Move
 
-Thievul
-Level: 32
+Machop
+Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Hypno
-Level: 32
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Mightyena
-Level: 32
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-Haunter
-Level: 32
+Drowzee
+Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_6 ===
@@ -7309,19 +6913,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route24 */
 
 Arbok
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Thievul
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Croagunk
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Liepard
-Level: 28
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_7 ===
@@ -9191,7 +8795,7 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon 
 /* Location: PewterCity_Gym */
 
 Geodude @ Smooth Rock
-Level: 20
+Level: 23
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Sturdy
 Nature: Adamant
@@ -9200,8 +8804,8 @@ Nature: Adamant
 - Rock Throw
 - Protect
 
-Zubat @ Focus Sash
-Level: 20
+Golbat @ Focus Sash
+Level: 23
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Adamant
 - Poison Fang
@@ -9210,7 +8814,7 @@ Nature: Adamant
 - Protect
 
 Chansey @ Leftovers
-Level: 20
+Level: 23
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Sassy
 - Life Dew
@@ -9219,7 +8823,7 @@ Nature: Sassy
 - Rock Tomb
 
 Vulpix @ Charcoal
-Level: 20
+Level: 23
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Modest
 - Will O Wisp
@@ -9228,7 +8832,7 @@ Nature: Modest
 - Protect
 
 Sudowoodo @ Assault Vest
-Level: 20
+Level: 23
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Adamant
 - Wood Hammer
@@ -9237,7 +8841,7 @@ Nature: Adamant
 - Hammer Arm
 
 Onix @ Sitrus Berry
-Level: 20
+Level: 23
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Adamant
 - Sandstorm
@@ -9323,7 +8927,7 @@ Gender: Male
 Music: Female
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: CeruleanCity_Gym */
+/* Location: Cerulean City */
 
 Golduck @ Mystic Water  
 Ability: Swift Swim  
@@ -9633,29 +9237,16 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Doublade  
-Ability: No Guard  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Growlithe
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Tinkatuff  
-Ability: Mold Breaker  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Roserade  
-Ability: Natural Cure  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Pachirisu  
-Ability: Volt Absorb  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Growlithe
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GENTLEMAN_ARTHUR ===
 Name: ARTHUR
@@ -9663,29 +9254,16 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Gallade  
-Ability: Steadfast  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nidoran M
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Chandelure  
-Ability: Flash Fire  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Togetic  
-Ability: Serene Grace  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Arcanine  
-Ability: Intimidate  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nidoran F
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GENTLEMAN_TUCKER ===
 Name: TUCKER
@@ -9697,7 +9275,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Pikachu
-Level: 38
+Level: 46
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GENTLEMAN_NORTON ===
@@ -10977,19 +10555,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route25 */
 
 Raticate
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Arbok
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Floatzel
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Breloom
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_PICNICKER_MISSY ===
@@ -11188,29 +10766,12 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Gardevoir  
-Ability: Synchronize  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Noctowl  
-Ability: Insomnia  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Furret  
-Ability: Keen Eye  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Magneton  
-Ability: Sturdy  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Pikachu
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GENTLEMAN_LAMAR ===
 Name: LAMAR
@@ -11218,29 +10779,16 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Smart Switching
-/* Location: SSAnne */
+Double Battle: No
+AI: Check Bad Move
 
-Alakazam  
-Ability: Inner Focus  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Growlithe
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Togetic  
-Ability: Serene Grace  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Lopunny  
-Ability: Cute Charm  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-
-Lucario  
-Ability: Inner Focus  
-Level: 35  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Ponyta
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_TWINS_ELI_ANNE ===
 Name: ELI & ANNE
@@ -11509,19 +11057,19 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Battle / Sma
 /* Location: Route25 */
 
 Arbok
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Sandslash
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Furret
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Houndour
-Level: 29
+Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LASS_RELI_2 ===
@@ -12081,22 +11629,22 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
-/* Location: Vermilion_Forest */
+/* Location: PewterCity_Gym */
 
 Beedrill
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Skorupi
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Pinsir
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Ledian
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BUG_CATCHER_CHARLIE ===
@@ -12107,22 +11655,22 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn / Double Ace Pokemon / Double Battle / Smart Switching
-/* Location: Vermilion_Forest */
+/* Location: PewterCity_Gym */
 
 Butterfree
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Shedinja
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Spinarak
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Vivillon
-Level: 16
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_TWINS_ELI_ANNE_2 ===

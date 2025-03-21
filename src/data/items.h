@@ -1945,7 +1945,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Rare Candy"),
         .pluralName = _("Rare Candies"),
-        .price = (I_PRICE >= GEN_7) ? 3000 : 4800,
+	.price = 0,
+        //.price = (I_PRICE >= GEN_7) ? 3000 : 4800,
         .description = COMPOUND_STRING(
             "Raises the level "
             "of a Pokémon by\n"
@@ -8358,7 +8359,8 @@ const struct Item gItemsInfo[] =
         .description = sPureIncenseDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+//        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_CleanseTag,
         .flingPower = 30,
         .iconPic = gItemIcon_CleanseTag,
         .iconPalette = gItemIconPalette_CleanseTag,

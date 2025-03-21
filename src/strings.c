@@ -201,6 +201,10 @@ const u8 gText_NoRoomToStoreItems[] = _("There's no room to\nstore items.");
 const u8 gText_TossOutHowManyStrVar1s[] = _("Toss out how many\n{STR_VAR_1}(s)?");
 const u8 gText_ThrewAwayStrVar2StrVar1s[] = _("Threw away {STR_VAR_2}\n{STR_VAR_1}(s).");
 const u8 gText_ThrowAwayStrVar2OfThisItemQM[] = _("Throw away {STR_VAR_2} of\nthis item?");
+
+const u8 gText_CleanseTagTurnOn[] = _("Turned on Cleanse Tag.\nAll wild encounters will be avoided.{PAUSE_UNTIL_PRESS}");
+const u8 gText_CleanseTagTurnOff[] = _("Turned off Cleanse Tag.{PAUSE_UNTIL_PRESS}");
+
 const u8 gText_OakForbidsUseOfItemHere[] = _("OAK: {PLAYER}!\nThis isn't the time to use that!{PAUSE_UNTIL_PRESS}");
 const u8 gText_CantDismountBike[] = _("You can't dismount your BIKE here.{PAUSE_UNTIL_PRESS}");
 const u8 gText_ItemfinderResponding[] = _("Huh?\nThe ITEMFINDER's responding!\pThere's an item buried around here!{PAUSE_UNTIL_PRESS}");

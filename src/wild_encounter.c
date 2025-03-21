@@ -21,6 +21,7 @@
 #include "constants/item.h"
 #include "constants/items.h"
 #include "constants/weather.h"
+#include "item.h"
 
 #define MAX_ENCOUNTER_RATE 1600
 
@@ -956,8 +957,25 @@ static u8 GetFluteEncounterRateModType(void)
 
 static void ApplyCleanseTagEncounterRateMod(u32 *encounterRate)
 {
-    if (IsLeadMonHoldingCleanseTag())
-        *encounterRate = *encounterRate * 2 / 3;
+    //if (IsLeadMonHoldingCleanseTag())
+    //    *encounterRate = *encounterRate * 2 / 3;
+    int i;
+
+    if (FlagGet(FLAG_CLEANSE_TAG)){
+        if (CheckBagHasItem(ITEM_CLEANSE_TAG, 1)){
+            *encounterRate = 0;
+            return;
+        }
+        FlagClear(FLAG_CLEANSE_TAG);
+    }
+
+    for (i = 0; i < PARTY_SIZE; i++){
+        if (GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM) == ITEM_CLEANSE_TAG){
+            *encounterRate = 0;
+            break;
+        }
+    }
+
 }
 
 static bool8 IsLeadMonHoldingCleanseTag(void)
