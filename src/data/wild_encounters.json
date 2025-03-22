@@ -1779,63 +1779,63 @@
             "encounter_rate": 5,
             "mons": [
               {
-                "min_level": 30,
-                "max_level": 30,
-                "species": "SPECIES_DIGLETT"
+                "min_level": 28,
+                "max_level": 32,
+                "species": "SPECIES_NUMEL"
               },
               {
-                "min_level": 32,
+                "min_level": 28,
+                "max_level": 32,
+                "species": "SPECIES_TORKOAL"
+              },
+              {
+                "min_level": 28,
+                "max_level": 32,
+                "species": "SPECIES_HIPPOPOTAS"
+              },
+              {
+                "min_level": 28,
+                "max_level": 32,
+                "species": "SPECIES_DRILBUR"
+              },
+              {
+                "min_level": 28,
+                "max_level": 32,
+                "species": "SPECIES_SUDOWOODO"
+              },
+              {
+                "min_level": 28,
+                "max_level": 32,
+                "species": "SPECIES_LITWICK"
+              },
+              {
+                "min_level": 28,
+                "max_level": 32,
+                "species": "SPECIES_CHARCADET"
+              },
+              {
+                "min_level": 28,
+                "max_level": 32,
+                "species": "SPECIES_GRAVELER_ALOLA"
+              },
+              {
+                "min_level": 28,
+                "max_level": 32,
+                "species": "SPECIES_GABITE"
+              },
+              {
+                "min_level": 28,
+                "max_level": 32,
+                "species": "SPECIES_LARVITAR"
+              },
+              {
+                "min_level": 28,
                 "max_level": 32,
                 "species": "SPECIES_DIGLETT"
               },
               {
                 "min_level": 28,
-                "max_level": 28,
-                "species": "SPECIES_DIGLETT"
-              },
-              {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_DIGLETT"
-              },
-              {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_DIGLETT"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_DIGLETT"
-              },
-              {
-                "min_level": 35,
-                "max_level": 35,
-                "species": "SPECIES_DIGLETT"
-              },
-              {
-                "min_level": 37,
-                "max_level": 37,
-                "species": "SPECIES_DIGLETT"
-              },
-              {
-                "min_level": 28,
-                "max_level": 28,
-                "species": "SPECIES_DIGLETT"
-              },
-              {
-                "min_level": 49,
-                "max_level": 49,
-                "species": "SPECIES_DUGTRIO"
-              },
-              {
-                "min_level": 28,
-                "max_level": 28,
-                "species": "SPECIES_DIGLETT"
-              },
-              {
-                "min_level": 52,
-                "max_level": 52,
+                "max_level": 32,
                 "species": "SPECIES_DUGTRIO"
               }
             ]

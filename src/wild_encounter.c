@@ -23,6 +23,8 @@
 #include "constants/weather.h"
 #include "item.h"
 
+#include "config/general.h"
+
 #define MAX_ENCOUNTER_RATE 1600
 
 enum
@@ -68,6 +70,8 @@ static void AddToWildEncounterRateBuff(u8 encouterRate);
 static bool8 TryGetAbilityInfluencedWildMonIndex(const struct WildPokemon *wildMon, u8 type, u16 ability, u8 *monIndex, u32 size);
 static bool8 IsAbilityAllowingEncounter(u8 level);
 
+static u8 NettuxGetPlayerHighestLevel(void);
+
 #include "data/wild_encounters.h"
 
 static const u8 sUnownLetterSlots[][LAND_WILD_COUNT] = {
@@ -86,6 +90,27 @@ static const u8 sUnownLetterSlots[][LAND_WILD_COUNT] = {
   //  Z   Z   Z   Z   Z   Z   Z   Z   Z   Z   Z   !
     {25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 26},
 };
+
+u8 NettuxGetPlayerHighestLevel(void) {
+    u8 lvl;
+    lvl = GetMonData(&gPlayerParty[0], MON_DATA_LEVEL);
+    if (GetMonData(&gPlayerParty[5], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[5], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[5], MON_DATA_LEVEL);
+    }
+    if (GetMonData(&gPlayerParty[4], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[4], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[4], MON_DATA_LEVEL);
+    }
+    if (GetMonData(&gPlayerParty[3], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[3], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[3], MON_DATA_LEVEL);
+    }
+    if (GetMonData(&gPlayerParty[3], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[2], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[2], MON_DATA_LEVEL);
+    }
+    if (GetMonData(&gPlayerParty[3], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[1], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[1], MON_DATA_LEVEL);
+    }
+    return lvl;
+}
 
 void DisableWildEncounters(bool8 state)
 {
@@ -211,10 +236,46 @@ static u8 ChooseWildMonIndex_Fishing(u8 rod)
 
 static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon, u8 wildMonIndex, u8 area)
 {
+
     u8 min;
     u8 max;
     u8 range;
     u8 rand;
+
+#if NETTUX_WILD_LEVEL_SCALE
+    u8 playerScaledMin;
+    u8 playerScaledMax;
+    u8 playerHighest;
+
+    playerHighest = NettuxGetPlayerHighestLevel();
+    playerScaledMin = playerHighest * 0.8;
+    playerScaledMax = playerHighest * 0.85;
+
+    min = wildPokemon[wildMonIndex].minLevel;
+    max = wildPokemon[wildMonIndex].maxLevel;
+    if (min > max)
+        max = min;
+
+    if (playerScaledMin > min)
+        min = playerScaledMin;
+    if (playerScaledMax > max)
+        max = playerScaledMax;
+    range = max - min + 1;
+    rand = Random() % range;
+
+    if (!GetMonData(&gPlayerParty[0], MON_DATA_SANITY_IS_EGG)) {
+        u16 ability = GetMonAbility(&gPlayerParty[0]);
+        if (ability == ABILITY_HUSTLE || ability == ABILITY_VITAL_SPIRIT || ability == ABILITY_PRESSURE) {
+            if (Random() % 2 == 0)
+                return max;
+
+            if (rand != 0)
+                rand--;
+        }
+    }
+
+    return min + rand;
+#endif
 
     if (LURE_STEP_COUNT == 0)
     {

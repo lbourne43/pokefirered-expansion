@@ -316,7 +316,5 @@
 #define B_POOL_RULE_ITEM_CLAUSE             FALSE    // Only allow each item to be picked once
 #define B_POOL_RULES_USE_ITEM_EXCLUSIONS    FALSE    // Exclude items listed in poolItemClauseExclusions
 
-#define NETTUX_WILD_LEVEL_SCALE             1        // Scales the level of wild pokemon to the level of your lead pokemon * 0.9
-#define NETTUX_TRAINER_LEVEL_SCALE          1        // Scales the level of trainer pokemon to the level of your highest level pokemon
 
 #endif // GUARD_CONFIG_BATTLE_H
