@@ -86,6 +86,6 @@
 
 // Naming Screen
 #define AUTO_LOWERCASE_KEYBOARD      GEN_LATEST  // Starting in GEN_6, after entering the first uppercase character, the keyboard switches to lowercase letters.
-#define NETTUX_NUZLOCKE		     1           // Free rare candies at the normal mart
+#define NETTUX_NUZLOCKE		     0           // Free rare candies at the normal mart
 
 #endif // GUARD_CONFIG_GENERAL_H

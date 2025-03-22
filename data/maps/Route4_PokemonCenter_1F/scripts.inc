@@ -147,3 +147,7 @@ Route4_PokemonCenter_1F_EventScript_Newspaper::
 	msgbox Route4_PokemonCenter_1F_Text_ItsANewspaper
 	release
 	end
+
+Route4_NettuxHelper_EventScript_PokeHelper::
+        call NettuxHelper_EventScript_PokeHelper
+        end

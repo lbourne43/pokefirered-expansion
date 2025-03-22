@@ -22,6 +22,7 @@ VermilionCity_Mart_EventScript_Clerk::
 
 	.align 2
 VermilionCity_Mart_Items::
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_ANTIDOTE
@@ -32,3 +33,7 @@ VermilionCity_Mart_Items::
 	.2byte ITEM_NONE
 	release
 	end
+
+VermilionCity_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end

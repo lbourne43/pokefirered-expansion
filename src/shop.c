@@ -1216,6 +1216,7 @@ static const u16 sNettuxMartInventory_ZeroBadges[] = {
 #if NETTUX_NUZLOCKE
     ITEM_RARE_CANDY,
 #endif
+    ITEM_CLEANSE_TAG,
     ITEM_POKE_BALL,
     ITEM_POTION,
     ITEM_ANTIDOTE,
@@ -1231,6 +1232,7 @@ static const u16 sNettuxMartInventory_OneBadge[] = {
 #if NETTUX_NUZLOCKE
     ITEM_RARE_CANDY,
 #endif
+    ITEM_CLEANSE_TAG,
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
     ITEM_POTION,
@@ -1248,6 +1250,7 @@ static const u16 sNettuxMartInventory_TwoBadges[] = {
 #if NETTUX_NUZLOCKE
     ITEM_RARE_CANDY,
 #endif
+    ITEM_CLEANSE_TAG,
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
     ITEM_POTION,
@@ -1266,6 +1269,7 @@ static const u16 sNettuxMartInventory_ThreeBadges[] = {
 #if NETTUX_NUZLOCKE
     ITEM_RARE_CANDY,
 #endif
+    ITEM_CLEANSE_TAG,
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
     ITEM_POTION,
@@ -1285,6 +1289,7 @@ static const u16 sNettuxMartInventory_FourBadges[] = {
 #if NETTUX_NUZLOCKE
     ITEM_RARE_CANDY,
 #endif
+    ITEM_CLEANSE_TAG,
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
     ITEM_POTION,
@@ -1305,6 +1310,7 @@ static const u16 sNettuxMartInventory_FiveBadges[] = {
 #if NETTUX_NUZLOCKE
     ITEM_RARE_CANDY,
 #endif
+    ITEM_CLEANSE_TAG,
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
     ITEM_ULTRA_BALL,
@@ -1327,6 +1333,7 @@ static const u16 sNettuxMartInventory_SixBadges[] = {
 #if NETTUX_NUZLOCKE
     ITEM_RARE_CANDY,
 #endif
+    ITEM_CLEANSE_TAG,
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
     ITEM_ULTRA_BALL,
@@ -1350,6 +1357,7 @@ static const u16 sNettuxMartInventory_SevenBadges[] = {
 #if NETTUX_NUZLOCKE
     ITEM_RARE_CANDY,
 #endif
+    ITEM_CLEANSE_TAG,
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
     ITEM_ULTRA_BALL,
@@ -1375,6 +1383,7 @@ static const u16 sNettuxMartInventory_EightBadges[] = {
 #if NETTUX_NUZLOCKE
     ITEM_RARE_CANDY,
 #endif
+    ITEM_CLEANSE_TAG,
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
     ITEM_ULTRA_BALL,
