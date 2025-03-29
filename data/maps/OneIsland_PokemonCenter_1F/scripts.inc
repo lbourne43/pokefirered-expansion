@@ -564,3 +564,7 @@ OneIsland_PokemonCenter_1F_Movement_BillExit::
 	walk_left
 	walk_down
 	step_end
+
+OneIsland_NettuxHelper_EventScript_PokeHelper::
+        call NettuxHelper_EventScript_PokeHelper
+        end

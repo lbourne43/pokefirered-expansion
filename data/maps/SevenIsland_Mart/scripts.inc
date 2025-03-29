@@ -14,6 +14,7 @@ SevenIsland_Mart_EventScript_Clerk::
 
 	.align 2
 SevenIsland_Mart_Items::
+        .2byte ITEM_PREMIER_BALL
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_FULL_RESTORE
@@ -38,3 +39,8 @@ SevenIsland_Mart_EventScript_Hiker::
 SevenIsland_Mart_EventScript_Fisher::
 	msgbox SevenIsland_Mart_Text_NeedToFishOnSevenIsland, MSGBOX_NPC
 	end
+
+
+SevenIsland_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end

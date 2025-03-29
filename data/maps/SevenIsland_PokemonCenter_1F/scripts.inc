@@ -25,3 +25,7 @@ SevenIsland_PokemonCenter_1F_EventScript_Sailor::
 SevenIsland_PokemonCenter_1F_EventScript_Beauty::
 	msgbox SevenIsland_PokemonCenter_1F_Text_CheckOutTrainerTower, MSGBOX_NPC
 	end
+
+SevenIsland_NettuxHelper_EventScript_PokeHelper::
+        call NettuxHelper_EventScript_PokeHelper
+        end

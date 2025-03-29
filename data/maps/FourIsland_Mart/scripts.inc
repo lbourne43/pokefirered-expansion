@@ -14,6 +14,7 @@ FourIsland_Mart_EventScript_Clerk::
 
 	.align 2
 FourIsland_Mart_Items::
+        .2byte ITEM_PREMIER_BALL
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_FULL_RESTORE
 	.2byte ITEM_MAX_POTION
@@ -29,3 +30,8 @@ FourIsland_Mart_Items::
 FourIsland_Mart_EventScript_Camper::
 	msgbox FourIsland_Mart_Text_IcefallCaveIsFrigid, MSGBOX_NPC
 	end
+
+
+FourIsland_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end

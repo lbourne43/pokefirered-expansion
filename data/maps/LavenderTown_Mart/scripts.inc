@@ -26,6 +26,7 @@ LavenderTown_Mart_EventScript_Clerk::
 
 	.align 2
 LavenderTown_Mart_Items::
+        .2byte ITEM_PREMIER_BALL
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_REVIVE
@@ -38,3 +39,8 @@ LavenderTown_Mart_Items::
 	.2byte ITEM_NONE
 	release
 	end
+
+
+LavenderTown_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end

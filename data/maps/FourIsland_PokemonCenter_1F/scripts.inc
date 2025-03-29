@@ -25,3 +25,7 @@ FourIsland_PokemonCenter_1F_EventScript_Woman::
 FourIsland_PokemonCenter_1F_EventScript_Gentleman::
 	msgbox FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived, MSGBOX_NPC
 	end
+
+FourIsland_NettuxHelper_EventScript_PokeHelper::
+        call NettuxHelper_EventScript_PokeHelper
+        end

@@ -38,6 +38,8 @@
 #include "constants/battle_move_effects.h"
 #include "constants/sound.h"
 
+#include "config/general.h"
+
 // needs conflicting header to match (curIndex is s8 in the function, but has to be defined as u8 here)
 extern s16 SeekToNextMonInBox(struct BoxPokemon * boxMons, u8 curIndex, u8 maxIndex, u8 flags);
 
@@ -2372,6 +2374,41 @@ static void BufferEVString(u8 stat)
         ApplyNatureColor(dst, stat);
 }
 
+#if NETTUX_IV_VIEWER_NUMBERS == 1
+// There must be a better way...
+static const u8 sText_Judge0[] = _(" 0");
+static const u8 sText_Judge1[] = _(" 1");
+static const u8 sText_Judge2[] = _(" 2");
+static const u8 sText_Judge3[] = _(" 3");
+static const u8 sText_Judge4[] = _(" 4");
+static const u8 sText_Judge5[] = _(" 5");
+static const u8 sText_Judge6[] = _(" 6");
+static const u8 sText_Judge7[] = _(" 7");
+static const u8 sText_Judge8[] = _(" 8");
+static const u8 sText_Judge9[] = _(" 9");
+static const u8 sText_Judge10[] = _("10");
+static const u8 sText_Judge11[] = _("11");
+static const u8 sText_Judge12[] = _("12");
+static const u8 sText_Judge13[] = _("13");
+static const u8 sText_Judge14[] = _("14");
+static const u8 sText_Judge15[] = _("15");
+static const u8 sText_Judge16[] = _("16");
+static const u8 sText_Judge17[] = _("17");
+static const u8 sText_Judge18[] = _("18");
+static const u8 sText_Judge19[] = _("19");
+static const u8 sText_Judge20[] = _("20");
+static const u8 sText_Judge21[] = _("21");
+static const u8 sText_Judge22[] = _("22");
+static const u8 sText_Judge23[] = _("23");
+static const u8 sText_Judge24[] = _("24");
+static const u8 sText_Judge25[] = _("25");
+static const u8 sText_Judge26[] = _("26");
+static const u8 sText_Judge27[] = _("27");
+static const u8 sText_Judge28[] = _("28");
+static const u8 sText_Judge29[] = _("29");
+static const u8 sText_Judge30[] = _("30");
+static const u8 sText_Judge31[] = _("31");
+#else
 static const u8 sText_JudgeNoGood[] = _("No good");
 static const u8 sText_JudgeDecent[] = _("Decent");
 static const u8 sText_JudgePrettyGood[] = _("Pretty good");
@@ -2379,6 +2416,7 @@ static const u8 sText_JudgeVeryGood[] = _("Very good");
 static const u8 sText_JudgeFantastic[] = _("Fantastic");
 static const u8 sText_JudgeBest[] = _("Best");
 static const u8 sText_JudgeHyperTrained[] = _("Hyper trained!");
+#endif
 
 static void BufferIVString(u8 stat)
 {
@@ -2386,6 +2424,73 @@ static void BufferIVString(u8 stat)
     u16 statValue = GetMonData(&sMonSummaryScreen->currentMon, sStatData[stat].monDataIv);
     u8 *dst = sMonSummaryScreen->summary.statValueStrBufs[sStatData[stat].pssStat];
 
+#if NETTUX_IV_VIEWER_NUMBERS == 1
+// There must be a better way...
+    if (statValue == 31 || isHyperTrained)
+        StringCopy(dst, sText_Judge31);
+    else if (statValue == 30)
+        StringCopy(dst, sText_Judge30);
+    else if (statValue == 29)
+        StringCopy(dst, sText_Judge29);
+    else if (statValue == 28)
+        StringCopy(dst, sText_Judge28);
+    else if (statValue == 27)
+        StringCopy(dst, sText_Judge27);
+    else if (statValue == 26)
+        StringCopy(dst, sText_Judge26);
+    else if (statValue == 25)
+        StringCopy(dst, sText_Judge25);
+    else if (statValue == 24)
+        StringCopy(dst, sText_Judge24);
+    else if (statValue == 23)
+        StringCopy(dst, sText_Judge23);
+    else if (statValue == 22)
+        StringCopy(dst, sText_Judge22);
+    else if (statValue == 21)
+        StringCopy(dst, sText_Judge21);
+    else if (statValue == 20)
+        StringCopy(dst, sText_Judge20);
+    else if (statValue == 19)
+        StringCopy(dst, sText_Judge19);
+    else if (statValue == 18)
+        StringCopy(dst, sText_Judge18);
+    else if (statValue == 17)
+        StringCopy(dst, sText_Judge17);
+    else if (statValue == 16)
+        StringCopy(dst, sText_Judge16);
+    else if (statValue == 15)
+        StringCopy(dst, sText_Judge15);
+    else if (statValue == 14)
+        StringCopy(dst, sText_Judge14);
+    else if (statValue == 13)
+        StringCopy(dst, sText_Judge13);
+    else if (statValue == 12)
+        StringCopy(dst, sText_Judge12);
+    else if (statValue == 11)
+        StringCopy(dst, sText_Judge11);
+    else if (statValue == 10)
+        StringCopy(dst, sText_Judge10);
+    else if (statValue == 9)
+        StringCopy(dst, sText_Judge9);
+    else if (statValue == 8)
+        StringCopy(dst, sText_Judge8);
+    else if (statValue == 7)
+        StringCopy(dst, sText_Judge7);
+    else if (statValue == 6)
+        StringCopy(dst, sText_Judge6);
+    else if (statValue == 5)
+        StringCopy(dst, sText_Judge5);
+    else if (statValue == 4)
+        StringCopy(dst, sText_Judge4);
+    else if (statValue == 3)
+        StringCopy(dst, sText_Judge3);
+    else if (statValue == 2)
+        StringCopy(dst, sText_Judge2);
+    else if (statValue == 1)
+        StringCopy(dst, sText_Judge1);
+    else
+        StringCopy(dst, sText_Judge0);
+#else
     if (isHyperTrained)
         StringCopy(dst, sText_JudgeHyperTrained);
     else if (statValue == 31)
@@ -2400,7 +2505,7 @@ static void BufferIVString(u8 stat)
         StringCopy(dst, sText_JudgeDecent);
     else
         StringCopy(dst, sText_JudgeNoGood);
-
+#endif
     SetStatXPos(stat, 0);
     if (stat != STAT_HP)
         ApplyNatureColor(dst, stat);

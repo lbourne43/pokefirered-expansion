@@ -22,6 +22,7 @@ FuchsiaCity_Mart_EventScript_Clerk::
 
 	.align 2
 FuchsiaCity_Mart_Items::
+        .2byte ITEM_PREMIER_BALL
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_SUPER_POTION
@@ -31,3 +32,8 @@ FuchsiaCity_Mart_Items::
 	.2byte ITEM_NONE
 	release
 	end
+
+
+FuchsiaCity_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end

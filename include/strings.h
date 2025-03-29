@@ -710,6 +710,7 @@ extern const u8 gText_SPc[];
 extern const u8 gText_HallOfFame_2[];
 extern const u8 gText_LogOff[];
 extern const u8 gText_ProfOakSPc[];
+extern const u8 gText_NurseJoysPc[];
 extern const u8 gText_Other[];
 extern const u8 gOtherText_Double[];
 extern const u8 gOtherText_Knockout[];

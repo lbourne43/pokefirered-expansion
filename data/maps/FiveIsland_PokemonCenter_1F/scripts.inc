@@ -21,3 +21,7 @@ FiveIsland_PokemonCenter_1F_EventScript_Chef::
 FiveIsland_PokemonCenter_1F_EventScript_CooltrainerF::
 	msgbox FiveIsland_PokemonCenter_1F_Text_YoureOnQuestToCatchEveryMon, MSGBOX_NPC
 	end
+
+FiveIsland_NettuxHelper_EventScript_PokeHelper::
+        call NettuxHelper_EventScript_PokeHelper
+        end

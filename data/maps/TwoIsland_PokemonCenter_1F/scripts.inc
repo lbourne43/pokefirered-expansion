@@ -21,3 +21,7 @@ TwoIsland_PokemonCenter_1F_EventScript_GBAKid::
 TwoIsland_PokemonCenter_1F_EventScript_BugCatcher::
 	msgbox TwoIsland_PokemonCenter_1F_Text_OldLadyLivesOutOnCape, MSGBOX_NPC
 	end
+
+TwoIsland_NettuxHelper_EventScript_PokeHelper::
+        call NettuxHelper_EventScript_PokeHelper
+        end

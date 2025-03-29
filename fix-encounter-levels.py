@@ -3,6 +3,7 @@
 with open("encounters.orig.json") as f:
     lines = f.readlines()
 
+i = 0
 for l in lines:
     l = l.rstrip()
     if "max_level" in l or "min_level" in l:

@@ -140,3 +140,7 @@ CinnabarIsland_PokemonCenter_1F_Movement_PlayerExitWest::
 	delay_16
 	walk_down
 	step_end
+
+CinnabarIsland_NettuxHelper_EventScript_PokeHelper::
+        call NettuxHelper_EventScript_PokeHelper
+        end

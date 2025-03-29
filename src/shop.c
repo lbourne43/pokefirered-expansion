@@ -613,9 +613,11 @@ static const u16 sNettuxTMInventory_OneBadge[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,  
+    ITEM_TM_REFLECT,
     ITEM_TM51,
-    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM52,                                                                                            
+    ITEM_TM53,
     ITEM_TM58,
     ITEM_TM59,
     ITEM_TM63,
@@ -629,9 +631,11 @@ static const u16 sNettuxTMInventory_TwoBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   
+    ITEM_TM_REFLECT,
     ITEM_TM51,
-    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM52,                                                                                            
+    ITEM_TM53,
     ITEM_TM58,
     ITEM_TM59,
     ITEM_TM63,
@@ -645,9 +649,11 @@ static const u16 sNettuxTMInventory_ThreeBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   
+    ITEM_TM_REFLECT,
     ITEM_TM51,
-    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM52,                                                                                            
+    ITEM_TM53,
     ITEM_TM58,
     ITEM_TM59,
     ITEM_TM63,
@@ -661,9 +667,11 @@ static const u16 sNettuxTMInventory_FourBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   
+    ITEM_TM_REFLECT,
     ITEM_TM51,
-    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM52,                                                                                            
+    ITEM_TM53,
     ITEM_TM58,
     ITEM_TM59,
     ITEM_TM63,
@@ -677,9 +685,11 @@ static const u16 sNettuxTMInventory_FiveBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   
+    ITEM_TM_REFLECT,
     ITEM_TM51,
-    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM52,                                                                                            
+    ITEM_TM53,
     ITEM_TM58,
     ITEM_TM59,
     ITEM_TM63,
@@ -693,9 +703,11 @@ static const u16 sNettuxTMInventory_SixBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   
+    ITEM_TM_REFLECT,
     ITEM_TM51,
-    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM52,                                                                                            
+    ITEM_TM53,
     ITEM_TM58,
     ITEM_TM59,
     ITEM_TM63,
@@ -709,9 +721,11 @@ static const u16 sNettuxTMInventory_SevenBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   
+    ITEM_TM_REFLECT,
     ITEM_TM51,
-    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM52,                                                                                            
+    ITEM_TM53,
     ITEM_TM58,
     ITEM_TM59,
     ITEM_TM63,
@@ -725,9 +739,11 @@ static const u16 sNettuxTMInventory_EightBadges[] = {
     ITEM_TM_SUNNY_DAY,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
-    ITEM_TM_RAIN_DANCE,                                                                                   ITEM_TM_REFLECT,
+    ITEM_TM_RAIN_DANCE,                                                                                   
+    ITEM_TM_REFLECT,
     ITEM_TM51,
-    ITEM_TM52,                                                                                            ITEM_TM53,
+    ITEM_TM52,                                                                                            
+    ITEM_TM53,
     ITEM_TM58,
     ITEM_TM59,
     ITEM_TM63,
@@ -1213,7 +1229,7 @@ static const u16 *const sNettuxTrainingInventories[] =
 };
 
 static const u16 sNettuxMartInventory_ZeroBadges[] = {
-#if NETTUX_NUZLOCKE
+#if NETTUX_FREE_RARE_CANDY
     ITEM_RARE_CANDY,
 #endif
     ITEM_CLEANSE_TAG,
@@ -1229,7 +1245,7 @@ static const u16 sNettuxMartInventory_ZeroBadges[] = {
 };
 
 static const u16 sNettuxMartInventory_OneBadge[] = {
-#if NETTUX_NUZLOCKE
+#if NETTUX_FREE_RARE_CANDY
     ITEM_RARE_CANDY,
 #endif
     ITEM_CLEANSE_TAG,
@@ -1247,7 +1263,7 @@ static const u16 sNettuxMartInventory_OneBadge[] = {
 };
 
 static const u16 sNettuxMartInventory_TwoBadges[] = {
-#if NETTUX_NUZLOCKE
+#if NETTUX_FREE_RARE_CANDY
     ITEM_RARE_CANDY,
 #endif
     ITEM_CLEANSE_TAG,
@@ -1266,7 +1282,7 @@ static const u16 sNettuxMartInventory_TwoBadges[] = {
 };
 
 static const u16 sNettuxMartInventory_ThreeBadges[] = {
-#if NETTUX_NUZLOCKE
+#if NETTUX_FREE_RARE_CANDY
     ITEM_RARE_CANDY,
 #endif
     ITEM_CLEANSE_TAG,
@@ -1286,7 +1302,7 @@ static const u16 sNettuxMartInventory_ThreeBadges[] = {
 };
 
 static const u16 sNettuxMartInventory_FourBadges[] = {
-#if NETTUX_NUZLOCKE
+#if NETTUX_FREE_RARE_CANDY
     ITEM_RARE_CANDY,
 #endif
     ITEM_CLEANSE_TAG,
@@ -1307,7 +1323,7 @@ static const u16 sNettuxMartInventory_FourBadges[] = {
 };
 
 static const u16 sNettuxMartInventory_FiveBadges[] = {
-#if NETTUX_NUZLOCKE
+#if NETTUX_FREE_RARE_CANDY
     ITEM_RARE_CANDY,
 #endif
     ITEM_CLEANSE_TAG,
@@ -1330,7 +1346,7 @@ static const u16 sNettuxMartInventory_FiveBadges[] = {
 };
 
 static const u16 sNettuxMartInventory_SixBadges[] = {
-#if NETTUX_NUZLOCKE
+#if NETTUX_FREE_RARE_CANDY
     ITEM_RARE_CANDY,
 #endif
     ITEM_CLEANSE_TAG,
@@ -1354,7 +1370,7 @@ static const u16 sNettuxMartInventory_SixBadges[] = {
 };
 
 static const u16 sNettuxMartInventory_SevenBadges[] = {
-#if NETTUX_NUZLOCKE
+#if NETTUX_FREE_RARE_CANDY
     ITEM_RARE_CANDY,
 #endif
     ITEM_CLEANSE_TAG,
@@ -1380,7 +1396,7 @@ static const u16 sNettuxMartInventory_SevenBadges[] = {
 };
 
 static const u16 sNettuxMartInventory_EightBadges[] = {
-#if NETTUX_NUZLOCKE
+#if NETTUX_FREE_RARE_CANDY
     ITEM_RARE_CANDY,
 #endif
     ITEM_CLEANSE_TAG,

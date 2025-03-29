@@ -14,6 +14,7 @@ SixIsland_Mart_EventScript_Clerk::
 
 	.align 2
 SixIsland_Mart_Items::
+        .2byte ITEM_PREMIER_BALL
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_FULL_RESTORE
 	.2byte ITEM_MAX_POTION
@@ -29,3 +30,8 @@ SixIsland_Mart_Items::
 SixIsland_Mart_EventScript_Picnicker::
 	msgbox SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter, MSGBOX_NPC
 	end
+
+
+SixIsland_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end

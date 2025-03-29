@@ -3,26 +3,14 @@
 #include "event_data.h"
 #include "caps.h"
 #include "pokemon.h"
+#include "config/general.h"
 
 
 u32 GetCurrentLevelCap(void)
 {
     static const u32 sLevelCapFlagMap[][2] =
     {
-#if NETTUX_NUZLOCKE
-        {FLAG_BADGE01_GET,    14},  // BROCK
-        {FLAG_GOT_FAME_CHECKER, 18},// 28 Rival
-        {FLAG_BADGE02_GET,    21},  // MISTY
-        {FLAG_BADGE03_GET,    24},  // LT SURGE
-        {FLAG_BADGE04_GET,    29},  // ERIKA
-                                    // 62 Rocket Stuff
-        {FLAG_BADGE05_GET,    43},  // SABRINA
-        {FLAG_BADGE06_GET,    43},  // KOGA
-        {FLAG_BADGE07_GET,    47},  // BLAINE
-        {FLAG_BADGE08_GET,    50},  // GIOVANNI
-                                    // 95 Rival
-        {FLAG_SYS_GAME_CLEAR, 63}, // BLUE
-#else
+#if NETTUX_HIGHER_LEVEL_CAPS
         {FLAG_BADGE01_GET,    20},  // BROCK
 	{FLAG_GOT_FAME_CHECKER,	28},// 28 Rival
         {FLAG_BADGE02_GET,    32},  // MISTY
@@ -36,6 +24,19 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE08_GET,    92},  // GIOVANNI
 				    // 95 Rival
         {FLAG_SYS_GAME_CLEAR, 100}, // BLUE
+#else
+        {FLAG_BADGE01_GET,    14},  // BROCK
+        {FLAG_GOT_FAME_CHECKER, 18},// 28 Rival
+        {FLAG_BADGE02_GET,    21},  // MISTY
+        {FLAG_BADGE03_GET,    24},  // LT SURGE
+        {FLAG_BADGE04_GET,    29},  // ERIKA
+                                    // 62 Rocket Stuff
+        {FLAG_BADGE05_GET,    43},  // SABRINA
+        {FLAG_BADGE06_GET,    43},  // KOGA
+        {FLAG_BADGE07_GET,    47},  // BLAINE
+        {FLAG_BADGE08_GET,    50},  // GIOVANNI
+                                    // 95 Rival
+        {FLAG_SYS_GAME_CLEAR, 63}, // BLUE
 #endif
     };
 

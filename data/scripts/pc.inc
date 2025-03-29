@@ -31,7 +31,8 @@ EventScript_ChoosePCMenu::
 	case 1, EventScript_AccessPlayersPC
 	case 2, EventScript_AccessProfOaksPC
 	case 3, EventScript_AccessHallOfFame
-	case 4, EventScript_TurnOffPC
+	case 4, NettuxHelper_EventScript_PokeHelper
+	case 5, EventScript_TurnOffPC
 	case SCR_MENU_CANCEL, EventScript_TurnOffPC
 	end
 

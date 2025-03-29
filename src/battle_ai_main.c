@@ -2750,6 +2750,11 @@ static s32 AI_TryToFaint(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
     {
         ADJUST_SCORE(LAST_CHANCE);
     }
+    // nettux add extra +1 to the hardest hitting move
+    else if (GetBestDmgMoveFromBattler(battlerAtk, battlerDef, AI_ATTACKING) == move)
+    {
+        ADJUST_SCORE(BEST_DAMAGE_MOVE);
+    }
 
     return score;
 }

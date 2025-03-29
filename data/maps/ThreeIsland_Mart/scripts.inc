@@ -14,6 +14,7 @@ ThreeIsland_Mart_EventScript_Clerk::
 
 	.align 2
 ThreeIsland_Mart_Items::
+        .2byte ITEM_PREMIER_BALL
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_HYPER_POTION
 	.2byte ITEM_REVIVE
@@ -35,3 +36,8 @@ ThreeIsland_Mart_EventScript_BugCatcher::
 ThreeIsland_Mart_EventScript_Youngster::
 	msgbox ThreeIsland_Mart_Text_BikersWereAboutToTrashMart, MSGBOX_NPC
 	end
+
+
+ThreeIsland_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end
