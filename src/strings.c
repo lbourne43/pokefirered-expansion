@@ -1384,6 +1384,13 @@ const u8 gText_NettuxNameRater[] = _("Name Rater");
 const u8 gText_NettuxMoveRelearner[] = _("Move Relearner");
 const u8 gText_NettuxHyperTrainer[] = _("Hyper Train!");
 
+const u8 gText_NettuxHyperHP[] = _("HP");
+const u8 gText_NettuxHyperAtk[] = _("Attack");
+const u8 gText_NettuxHyperDef[] = _("Defense");
+const u8 gText_NettuxHyperSpA[] = _("Sp Atk");
+const u8 gText_NettuxHyperSpD[] = _("Sp Def");
+const u8 gText_NettuxHyperSpe[] = _("Speed");
+
 const u8 gText_NettuxBattleMart[] = _("Battle Mart");
 const u8 gText_NettuxTrainingMart[] = _("Training Mart");
 const u8 gText_NettuxTMMart[] = _("TM Mart");

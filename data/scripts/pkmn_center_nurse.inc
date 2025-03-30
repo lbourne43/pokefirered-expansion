@@ -177,6 +177,9 @@ NettuxHelper_Text_ThatIsMerelyAnEgg::
     .string "Now, now.\n"
     .string "That is merely an EGG!$"
 
+NettuxHelper_Text_WhichStat::
+    .string "Which stat shoud I raise?$"
+
 NettuxHelper_EventScript_PokeHelper::
 	lockall
 	faceplayer
@@ -189,6 +192,7 @@ NettuxHelper_EventScript_PokeHelper::
 	goto_if_eq NettuxHelper_EventScript_PokeHelper_3
 	compare VAR_RESULT, 2
 	goto_if_eq NettuxHelper_EventScript_PokeHelper_4
+
 NettuxHelper_EventScript_PokeHelper_1:
 	msgbox NettuxHelper_EventScript_PokeHelper_Text_1
 	waitmessage
@@ -228,7 +232,7 @@ NettuxHelper_EventScript_Move_Relearner::
 
 
 NettuxHelper_EventScript_PokeHelper_Text_0:
-	.string "Do you want a pokemon?$"
+	.string "How can I help?$"
 
 NettuxHelper_EventScript_PokeHelper_Text_1:
 	.string "Come back anytime!$"
@@ -339,7 +343,7 @@ NettuxEvolveMartItems:
 	.2byte ITEM_NONE
 
 NettuxHelper_EventScript_MartHelper_Text_1:
-	.string "Do you want a pokemon?$"
+	.string "How can I help?$"
 
 NettuxHelper_EventScript_MartHelper_Text_2:
 	.string "Come back anytime!$"
@@ -420,18 +424,80 @@ NettuxHelper_SetIVs::
         specialvar VAR_RESULT, GetPartyMonSpecies
         compare VAR_RESULT, SPECIES_EGG
         goto_if_eq NettuxHelper_Rejected
-        goto NettuxHelper_SetIVs_Proceed
+        message NettuxHelper_Text_WhichStat
+        multichoice 1, 1, MULTICHOICE_NETTUX_HYPER_TRAINER, 0
+        closemessage
+        compare VAR_RESULT, 0
+        goto_if_eq NettuxHelper_SetHpIVs_Proceed
+        compare VAR_RESULT, 1
+        goto_if_eq NettuxHelper_SetAtkIVs_Proceed
+        compare VAR_RESULT, 2
+        goto_if_eq NettuxHelper_SetDefIVs_Proceed
+        compare VAR_RESULT, 3
+        goto_if_eq NettuxHelper_SetSpaIVs_Proceed
+        compare VAR_RESULT, 4
+        goto_if_eq NettuxHelper_SetSpdIVs_Proceed
+        compare VAR_RESULT, 5
+        goto_if_eq NettuxHelper_SetSpeIVs_Proceed
 
-NettuxHelper_SetIVs_Proceed:
+        goto NettuxHelper_ButIRefuse
+
+
+NettuxHelper_SetHpIVs_Proceed:
         lockall
         faceplayer
         removemoney 5000
         special MaxHpIvs
+        msgbox NettuxHelper_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetAtkIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
         special MaxAtkIvs
+        msgbox NettuxHelper_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetDefIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
         special MaxDefIvs
-        special MaxSpdIvs
+        msgbox NettuxHelper_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetSpaIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
         special MaxSpAtkIvs
+        msgbox NettuxHelper_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetSpdIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
         special MaxSpDefIvs
+        msgbox NettuxHelper_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetSpeIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        special MaxSpdIvs
         msgbox NettuxHelper_IVsSetSuccessfully 4
         closemessage
         releaseall
@@ -452,8 +518,7 @@ NettuxHelper_Rejected:
         end
 
 NettuxHelper_IVsSetSuccessfully:
-        .string "The IVs of your Pokémon's stats\n"
-        .string "have been successfully set to 31.\p"
+        .string "Hyper training complete!\n"
         .string "Come back anytime.$"
 
 NettuxHelper_Reject:

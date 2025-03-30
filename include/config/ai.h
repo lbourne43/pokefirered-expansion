@@ -14,9 +14,9 @@
 // AI smart switching chances; if you want more complex behaviour, modify GetSwitchChance
 #define SHOULD_SWITCH_ABSORBS_MOVE_PERCENTAGE                       100
 #define SHOULD_SWITCH_TRAPPER_PERCENTAGE                            100
-#define SHOULD_SWITCH_FREE_TURN_PERCENTAGE                          100
+#define SHOULD_SWITCH_FREE_TURN_PERCENTAGE                          0
 #define STAY_IN_ABSORBING_PERCENTAGE                                66  // Chance to stay in if outgoing mon has super effective move against player, will prevent switching out for an absorber with this likelihood
-#define SHOULD_SWITCH_HASBADODDS_PERCENTAGE                         50
+#define SHOULD_SWITCH_HASBADODDS_PERCENTAGE                         0
 #define SHOULD_SWITCH_ENCORE_STATUS_PERCENTAGE                      100
 #define SHOULD_SWITCH_ENCORE_DAMAGE_PERCENTAGE                      50
 #define SHOULD_SWITCH_CHOICE_LOCKED_PERCENTAGE                      100 // Only if locked into status move
@@ -52,6 +52,6 @@
 #define RISKY_AI_CRIT_THRESHOLD_GEN_1                           128 // "Stat stage" at which Risky will assume it gets a crit with gen 1 mechanics (this translates to an X / 255 % crit threshold)
 
 // AI prediction chances
-#define PREDICT_SWITCH_CHANCE                                   50
+#define PREDICT_SWITCH_CHANCE                                   0
 
 #endif // GUARD_CONFIG_AI_H

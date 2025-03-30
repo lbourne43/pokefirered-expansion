@@ -1582,6 +1582,14 @@ extern const u8 gText_CannotSendMonToBoxHM[];
 extern const u8 gText_NettuxNameRater[];
 extern const u8 gText_NettuxMoveRelearner[];
 extern const u8 gText_NettuxHyperTrainer[];
+
+extern const u8 gText_NettuxHyperHP[];
+extern const u8 gText_NettuxHyperAtk[];
+extern const u8 gText_NettuxHyperDef[];
+extern const u8 gText_NettuxHyperSpA[];
+extern const u8 gText_NettuxHyperSpD[];
+extern const u8 gText_NettuxHyperSpe[];
+
 extern const u8 gText_NettuxBattleMart[];
 extern const u8 gText_NettuxTrainingMart[];
 extern const u8 gText_NettuxTMMart[];
