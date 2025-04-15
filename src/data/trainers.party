@@ -29878,7 +29878,7 @@ Nature: Jolly
 - Crunch  
 - Protect  
 
-Tyranitar @ Focus Sash  
+Tyranitar @ Tyranitarite
 Ability: Sand Stream  
 Level: 55  
 EVs: 252 HP / 252 Atk / 4 SpD  
@@ -29932,7 +29932,7 @@ Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
 
-Tyranitar @ Focus Sash  
+Tyranitar @ Tyranitarite
 Ability: Sand Stream  
 Level: 62  
 EVs: 252 Atk / 4 HP / 252 Spe  
@@ -30004,7 +30004,6 @@ Class: Leader
 Pic: Leader Giovanni
 Gender: Male
 Music: Aqua
-Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32101,7 +32100,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Super Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32152,7 +32150,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32203,7 +32200,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32254,7 +32250,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32305,7 +32300,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32356,7 +32350,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32407,7 +32400,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32458,7 +32450,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32509,7 +32500,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32560,7 +32550,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32611,7 +32600,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Male
 Music: Cool
-Items: Super Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32662,7 +32650,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32713,7 +32700,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32764,7 +32750,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32815,7 +32800,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32866,7 +32850,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32917,7 +32900,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -32968,7 +32950,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -33019,7 +33000,6 @@ Class: Elite Four
 Pic: Elite Four Lorelei
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -33070,7 +33050,6 @@ Class: Elite Four
 Pic: Elite Four Bruno
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -33121,7 +33100,6 @@ Class: Elite Four
 Pic: Elite Four Agatha
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -33172,7 +33150,6 @@ Class: Elite Four
 Pic: Elite Four Lance
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -33449,16 +33426,16 @@ Nature: Timid
 - Grass Knot  
 - Protect  
 
-Golem-Alola @ Assault Vest  
-Ability: Galvanize  
+Manectric @ Manectite  
+Ability: Lightning Rod  
 Level: 40  
-EVs: 252 HP / 252 Atk / 4 SpD  
+EVs: 4 Def / 252 SpA / 252 Spe  
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
-Nature: Adamant  
-- Double-Edge  
-- Rock Slide  
-- Thunder Punch  
-- Fire Punch  
+Nature: Timid  
+- Thunderbolt  
+- Snarl  
+- Volt Switch  
+- Protect  
 
 Kilowattrel @ Life Orb  
 Ability: Wind Power  
@@ -33510,7 +33487,6 @@ Class: Leader
 Pic: Leader Erika
 Gender: Male
 Music: Female
-Items: Hyper Potion / Full Heal
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -33526,7 +33502,7 @@ Nature: Quiet
 - Solar Beam  
 - Protect  
 
-Venusaur @ Life Orb  
+Venusaur @ Venusaurite
 Ability: Chlorophyll  
 Level: 55  
 EVs: 4 HP / 252 SpA / 252 Spe  
@@ -33635,7 +33611,7 @@ Nature: Jolly
 - Sucker Punch  
 - Protect  
 
-Gengar @ Spell Tag  
+Gengar @ Gengarite
 Ability: Cursed Body  
 Level: 72  
 EVs: 252 SpA / 4 HP / 252 Spe  
@@ -33663,7 +33639,6 @@ Class: Leader
 Pic: Leader Blaine
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -33732,7 +33707,7 @@ Nature: Quiet
 - Trick Room  
 - Protect  
 
-Gardevoir @ Safety Goggles  
+Gardevoir @ Gardevoirite
 Ability: Telepathy  
 Level: 67  
 EVs: 252 SpA / 4 SpD / 252 HP  
@@ -34175,7 +34150,7 @@ Nature: Modest
 - Leech Seed  
 - Protect  
 
-Blastoise @ Sitrus Berry  
+Blastoise @ Blastoisinite	
 Ability: Torrent  
 Level: 55  
 EVs: 252 HP / 252 SpA / 4 Def  
@@ -34240,7 +34215,7 @@ Nature: Adamant
 - Will-O-Wisp  
 - Protect  
 
-Venusaur @ Life Orb  
+Venusaur @ Venusaurite
 Ability: Chlorophyll  
 Level: 55  
 EVs: 252 SpA / 4 HP / 252 Spe  
@@ -34305,7 +34280,7 @@ Nature: Jolly
 - Close Combat  
 - Protect  
 
-Charizard @ Focus Sash  
+Charizard @ Charizardite X
 Ability: Blaze  
 Level: 55  
 EVs: 252 SpA / 4 SpD / 252 Spe  
@@ -34403,7 +34378,7 @@ Nature: Modest
 - Leech Seed  
 - Protect  
 
-Blastoise @ Sitrus Berry  
+Blastoise @ Blastoisinite
 Ability: Torrent  
 Level: 62  
 EVs: 252 HP / 252 SpA / 4 Def  
@@ -34468,7 +34443,7 @@ Nature: Adamant
 - Will-O-Wisp  
 - Protect  
 
-Venusaur @ Life Orb  
+Venusaur @ Venusaurite
 Ability: Chlorophyll  
 Level: 62  
 EVs: 252 SpA / 4 HP / 252 Spe  
@@ -34533,7 +34508,7 @@ Nature: Jolly
 - Close Combat  
 - Protect  
 
-Charizard @ Focus Sash  
+Charizard @ Charizardite X
 Ability: Blaze  
 Level: 62  
 EVs: 252 SpA / 4 SpD / 252 Spe  
@@ -34746,7 +34721,6 @@ Class: Champion
 Pic: Champion Rival
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -34805,7 +34779,6 @@ Class: Champion
 Pic: Champion Rival
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -34864,7 +34837,6 @@ Class: Champion
 Pic: Champion Rival
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -37505,7 +37477,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -37532,7 +37503,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -37599,7 +37569,6 @@ Class: Lady
 Pic: Lady
 Gender: Male
 Music: Female
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -38036,7 +38005,6 @@ Class: Team Rocket
 Pic: Rocket Grunt F
 Gender: Male
 Music: Aqua
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -38071,7 +38039,6 @@ Class: Team Rocket
 Pic: Rocket Grunt M
 Gender: Male
 Music: Aqua
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -38520,7 +38487,6 @@ Class: Lady
 Pic: Lady
 Gender: Male
 Music: Female
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -39135,7 +39101,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -39162,7 +39127,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -39197,7 +39161,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -39220,7 +39183,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -39239,7 +39201,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -39290,7 +39251,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -39341,7 +39301,6 @@ Class: Cool Couple
 Pic: Cool Couple
 Gender: Male
 Music: Cool
-Items: Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -39452,7 +39411,6 @@ Class: Lady
 Pic: Lady
 Gender: Male
 Music: Female
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -41729,7 +41687,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -41756,7 +41713,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -41827,7 +41783,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -41862,7 +41817,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -41881,7 +41835,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -41932,7 +41885,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -41983,7 +41935,6 @@ Class: Cool Couple
 Pic: Cool Couple
 Gender: Male
 Music: Cool
-Items: Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -42130,7 +42081,6 @@ Class: Elite Four
 Pic: Elite Four Lorelei
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -42181,7 +42131,6 @@ Class: Elite Four
 Pic: Elite Four Bruno
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -42232,7 +42181,6 @@ Class: Elite Four
 Pic: Elite Four Agatha
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -42283,7 +42231,6 @@ Class: Elite Four
 Pic: Elite Four Lance
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -42334,7 +42281,6 @@ Class: Champion
 Pic: Champion Rival
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -42393,7 +42339,6 @@ Class: Champion
 Pic: Champion Rival
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
@@ -42452,7 +42397,6 @@ Class: Champion
 Pic: Champion Rival
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: nettux
 Difficulty: Doubles
