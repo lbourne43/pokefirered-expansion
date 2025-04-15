@@ -3014,8 +3014,9 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sGurdurrLevelUpLearnset,
         .teachableLearnset = sGurdurrTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_CONKELDURR},
-                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_CONKELDURR}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_CONKELDURR}),
+        //.evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_CONKELDURR},
+        //                        {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_CONKELDURR}),
     },
 
     [SPECIES_CONKELDURR] =

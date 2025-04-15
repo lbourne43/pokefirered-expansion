@@ -1134,6 +1134,9 @@ PalletTown_ProfessorOaksLab_EventScript_ChoseStarter::
 	waitmessage
 	playfanfare MUS_OBTAIN_KEY_ITEM
 	waitfanfare
+	goto PalletTown_Nettux_SetDifficulty
+
+PalletTown_Nettux_WhyNotNickname::
 	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, EventScript_GiveNicknameToStarter
 	goto_if_eq VAR_RESULT, NO, PalletTown_ProfessorOaksLab_EventScript_RivalPicksStarter
@@ -1307,3 +1310,37 @@ PalletTown_ProfessorOaksLab_EventScript_RightSignAlt::
 	msgbox PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints
 	releaseall
 	end
+
+PalletTown_Nettux_SetDifficulty::
+        message PalletTown_Nettux_SetDifficulty_Text_0
+        multichoice 25, 5, MULTICHOICE_NETTUX_DIFFICULTY, 0
+        closemessage
+        compare VAR_RESULT, 0
+        goto_if_eq PalletTown_Nettux_SetDifficulty_2
+        compare VAR_RESULT, 1
+        goto_if_eq PalletTown_Nettux_SetDifficulty_3
+        compare VAR_RESULT, 2
+        goto_if_eq PalletTown_Nettux_SetDifficulty_4
+
+PalletTown_Nettux_SetDifficulty_1:
+        waitmessage
+        goto PalletTown_Nettux_WhyNotNickname
+
+PalletTown_Nettux_SetDifficulty_2:
+        clearflag FLAG_NETTUX_HARD
+        clearflag FLAG_NETTUX_VGC
+        goto PalletTown_Nettux_SetDifficulty_1
+
+PalletTown_Nettux_SetDifficulty_3:
+        setflag FLAG_NETTUX_HARD
+        clearflag FLAG_NETTUX_VGC
+        goto PalletTown_Nettux_SetDifficulty_1
+
+PalletTown_Nettux_SetDifficulty_4:
+        clearflag FLAG_NETTUX_HARD
+        setflag FLAG_NETTUX_VGC
+        goto PalletTown_Nettux_SetDifficulty_1
+
+
+PalletTown_Nettux_SetDifficulty_Text_0:
+        .string "Difficulty setting?$"

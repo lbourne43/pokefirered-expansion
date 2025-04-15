@@ -3,13 +3,20 @@
 #include "event_data.h"
 #include "script.h"
 #include "constants/battle.h"
+#include "constants/flags.h"
 
 enum DifficultyLevel GetCurrentDifficultyLevel(void)
 {
-    if (!B_VAR_DIFFICULTY)
-        return DIFFICULTY_NORMAL;
+    //if (!B_VAR_DIFFICULTY)
+    //    return DIFFICULTY_NORMAL;
 
-    return VarGet(B_VAR_DIFFICULTY);
+    if (FlagGet(FLAG_NETTUX_HARD))
+        return DIFFICULTY_HARD;
+    if (FlagGet(FLAG_NETTUX_VGC))
+        return DIFFICULTY_DOUBLES;
+
+    return DIFFICULTY_NORMAL;
+    //return VarGet(B_VAR_DIFFICULTY);
 }
 
 void SetCurrentDifficultyLevel(enum DifficultyLevel desiredDifficulty)

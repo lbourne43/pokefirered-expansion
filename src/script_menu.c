@@ -564,6 +564,13 @@ static const struct MenuAction sMultichoiceList_NettuxHyperTrainer[] =
     {gText_NettuxHyperSpe},
 };
 
+static const struct MenuAction sMultichoiceList_NettuxDifficulty[] =
+{
+    {gText_NettuxDifficultyNormal},
+    {gText_NettuxDifficultyHard},
+    {gText_NettuxDifficultyDoubles},
+};
+
 static const struct MenuAction sMultichoiceList_NettuxPokeHelper[] =
 {
     {gText_NettuxNameRater},
@@ -652,6 +659,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_NETTUX_HYPER_TRAINER]                       = MULTICHOICE(sMultichoiceList_NettuxHyperTrainer),
     [MULTICHOICE_NETTUX_POKE_HELPER]                         = MULTICHOICE(sMultichoiceList_NettuxPokeHelper),
     [MULTICHOICE_NETTUX_MART_HELPER]                         = MULTICHOICE(sMultichoiceList_NettuxMartHelper),
+    [MULTICHOICE_NETTUX_DIFFICULTY]                          = MULTICHOICE(sMultichoiceList_NettuxDifficulty),
 };
 
 // From Cool to Berries goes unused

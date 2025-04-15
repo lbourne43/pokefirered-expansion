@@ -76,6 +76,7 @@
 #define MULTICHOICE_NETTUX_HYPER_TRAINER                       65
 #define MULTICHOICE_NETTUX_POKE_HELPER                         66
 #define MULTICHOICE_NETTUX_MART_HELPER                         67
+#define MULTICHOICE_NETTUX_DIFFICULTY                          68
 
 #define MULTICHOICE_NONE                                      255
 

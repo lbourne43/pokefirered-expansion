@@ -1395,3 +1395,7 @@ const u8 gText_NettuxBattleMart[] = _("Battle Mart");
 const u8 gText_NettuxTrainingMart[] = _("Training Mart");
 const u8 gText_NettuxTMMart[] = _("TM Mart");
 const u8 gText_NettuxEvolveMart[] = _("Evolvution Mart");
+
+const u8 gText_NettuxDifficultyNormal[] = _("Normal");
+const u8 gText_NettuxDifficultyHard[] = _("Hard");
+const u8 gText_NettuxDifficultyDoubles[] = _("Doubles");

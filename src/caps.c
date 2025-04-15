@@ -8,9 +8,8 @@
 
 u32 GetCurrentLevelCap(void)
 {
-    static const u32 sLevelCapFlagMap[][2] =
+    static const u32 sLevelCapFlagMapHard[][2] =
     {
-#if NETTUX_HIGHER_LEVEL_CAPS
         {FLAG_BADGE01_GET,    20},  // BROCK
 	{FLAG_GOT_FAME_CHECKER,	28},// 28 Rival
         {FLAG_BADGE02_GET,    32},  // MISTY
@@ -24,7 +23,10 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE08_GET,    92},  // GIOVANNI
 				    // 95 Rival
         {FLAG_SYS_GAME_CLEAR, 100}, // BLUE
-#else
+
+    };
+    static const u32 sLevelCapFlagMap[][2] =
+    {
         {FLAG_BADGE01_GET,    14},  // BROCK
         {FLAG_GOT_FAME_CHECKER, 18},// 28 Rival
         {FLAG_BADGE02_GET,    21},  // MISTY
@@ -37,18 +39,33 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE08_GET,    50},  // GIOVANNI
                                     // 95 Rival
         {FLAG_SYS_GAME_CLEAR, 63}, // BLUE
-#endif
     };
 
     u32 i;
+    bool8 hardmode = FALSE;
+    if (FlagGet(FLAG_NETTUX_HARD) || FlagGet(FLAG_NETTUX_VGC))
+        hardmode = TRUE;
 
     if (B_LEVEL_CAP_TYPE == LEVEL_CAP_FLAG_LIST)
     {
-        for (i = 0; i < ARRAY_COUNT(sLevelCapFlagMap); i++)
-        {
-            if (!FlagGet(sLevelCapFlagMap[i][0]))
-                return sLevelCapFlagMap[i][1];
-        }
+	if (hardmode) {
+            for (i = 0; i < ARRAY_COUNT(sLevelCapFlagMapHard); i++)
+            {
+                if (!FlagGet(sLevelCapFlagMapHard[i][0]))
+                {
+                    return sLevelCapFlagMapHard[i][1];
+	        }
+            }
+        } else {
+            for (i = 0; i < ARRAY_COUNT(sLevelCapFlagMap); i++)
+            {
+                if (!FlagGet(sLevelCapFlagMap[i][0]))
+                {
+                    return sLevelCapFlagMap[i][1];
+	        }
+            }
+
+	}
     }
     else if (B_LEVEL_CAP_TYPE == LEVEL_CAP_VARIABLE)
     {

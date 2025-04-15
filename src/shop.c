@@ -479,6 +479,13 @@ static const u16 sNettuxBattleInventory_FourBadges[] = {
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
     ITEM_VS_SEEKER,
+    ITEM_WHITE_HERB,
+    ITEM_MENTAL_HERB,
+    ITEM_POWER_HERB,
+    ITEM_MIRROR_HERB,
+    ITEM_FOCUS_SASH,
+    ITEM_LEFTOVERS,
+    ITEM_LIFE_ORB,
     ITEM_NONE
 };
 
@@ -503,6 +510,13 @@ static const u16 sNettuxBattleInventory_FiveBadges[] = {
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
     ITEM_VS_SEEKER,
+    ITEM_WHITE_HERB,
+    ITEM_MENTAL_HERB,
+    ITEM_POWER_HERB,
+    ITEM_MIRROR_HERB,
+    ITEM_FOCUS_SASH,
+    ITEM_LEFTOVERS,
+    ITEM_LIFE_ORB,
     ITEM_NONE
 };
 
@@ -527,6 +541,14 @@ static const u16 sNettuxBattleInventory_SixBadges[] = {
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
     ITEM_VS_SEEKER,
+    ITEM_WHITE_HERB,
+    ITEM_MENTAL_HERB,
+    ITEM_POWER_HERB,
+    ITEM_MIRROR_HERB,
+    ITEM_FOCUS_SASH,
+    ITEM_LEFTOVERS,
+    ITEM_LIFE_ORB,
+    ITEM_CLEAR_AMULET,
     ITEM_NONE
 };
 
@@ -551,6 +573,14 @@ static const u16 sNettuxBattleInventory_SevenBadges[] = {
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
     ITEM_VS_SEEKER,
+    ITEM_WHITE_HERB,
+    ITEM_MENTAL_HERB,
+    ITEM_POWER_HERB,
+    ITEM_MIRROR_HERB,
+    ITEM_FOCUS_SASH,
+    ITEM_LEFTOVERS,
+    ITEM_LIFE_ORB,
+    ITEM_CLEAR_AMULET,
     ITEM_NONE
 };
 
@@ -575,6 +605,14 @@ static const u16 sNettuxBattleInventory_EightBadges[] = {
     ITEM_METAL_COAT,
     ITEM_EXP_SHARE,
     ITEM_VS_SEEKER,
+    ITEM_WHITE_HERB,
+    ITEM_MENTAL_HERB,
+    ITEM_POWER_HERB,
+    ITEM_MIRROR_HERB,
+    ITEM_FOCUS_SASH,
+    ITEM_LEFTOVERS,
+    ITEM_LIFE_ORB,
+    ITEM_CLEAR_AMULET,
     ITEM_NONE
 };
 
@@ -593,6 +631,7 @@ static const u16 *const sNettuxBattleInventories[] =
 
 static const u16 sNettuxTMInventory_ZeroBadges[] = {
     ITEM_TM_SUNNY_DAY,
+    ITEM_TM_TAUNT,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
     ITEM_TM_RAIN_DANCE,
@@ -611,6 +650,7 @@ static const u16 sNettuxTMInventory_ZeroBadges[] = {
 
 static const u16 sNettuxTMInventory_OneBadge[] = {
     ITEM_TM_SUNNY_DAY,
+    ITEM_TM_TAUNT,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
     ITEM_TM_RAIN_DANCE,
@@ -629,6 +669,7 @@ static const u16 sNettuxTMInventory_OneBadge[] = {
 
 static const u16 sNettuxTMInventory_TwoBadges[] = {
     ITEM_TM_SUNNY_DAY,
+    ITEM_TM_TAUNT,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
     ITEM_TM_RAIN_DANCE,
@@ -649,6 +690,7 @@ static const u16 sNettuxTMInventory_TwoBadges[] = {
 
 static const u16 sNettuxTMInventory_ThreeBadges[] = {
     ITEM_TM_SUNNY_DAY,
+    ITEM_TM_TAUNT,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
@@ -673,6 +715,7 @@ static const u16 sNettuxTMInventory_ThreeBadges[] = {
 
 static const u16 sNettuxTMInventory_FourBadges[] = {
     ITEM_TM_SUNNY_DAY,
+    ITEM_TM_TAUNT,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
@@ -699,6 +742,7 @@ static const u16 sNettuxTMInventory_FourBadges[] = {
 
 static const u16 sNettuxTMInventory_FiveBadges[] = {
     ITEM_TM_SUNNY_DAY,
+    ITEM_TM_TAUNT,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
@@ -727,6 +771,7 @@ static const u16 sNettuxTMInventory_FiveBadges[] = {
 
 static const u16 sNettuxTMInventory_SixBadges[] = {
     ITEM_TM_SUNNY_DAY,
+    ITEM_TM_TAUNT,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
@@ -755,6 +800,7 @@ static const u16 sNettuxTMInventory_SixBadges[] = {
 
 static const u16 sNettuxTMInventory_SevenBadges[] = {
     ITEM_TM_SUNNY_DAY,
+    ITEM_TM_TAUNT,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
@@ -783,6 +829,7 @@ static const u16 sNettuxTMInventory_SevenBadges[] = {
 
 static const u16 sNettuxTMInventory_EightBadges[] = {
     ITEM_TM_SUNNY_DAY,
+    ITEM_TM_TAUNT,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_LIGHT_SCREEN,
     ITEM_TM_PROTECT,
@@ -1058,6 +1105,7 @@ static const u16 sNettuxTrainingInventory_TwoBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
     ITEM_NONE
 };
 
@@ -1092,6 +1140,7 @@ static const u16 sNettuxTrainingInventory_ThreeBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
     ITEM_NONE
 };
 
@@ -1126,6 +1175,8 @@ static const u16 sNettuxTrainingInventory_FourBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
+    ITEM_ABILITY_PATCH,
     ITEM_NONE
 };
 
@@ -1161,6 +1212,8 @@ static const u16 sNettuxTrainingInventory_FiveBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
+    ITEM_ABILITY_PATCH,
     ITEM_NONE
 };
 
@@ -1196,6 +1249,8 @@ static const u16 sNettuxTrainingInventory_SixBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
+    ITEM_ABILITY_PATCH,
     ITEM_NONE
 };
 
@@ -1232,6 +1287,8 @@ static const u16 sNettuxTrainingInventory_SevenBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
+    ITEM_ABILITY_PATCH,
     ITEM_NONE
 };
 
@@ -1268,6 +1325,8 @@ static const u16 sNettuxTrainingInventory_EightBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
+    ITEM_ABILITY_PATCH,
     ITEM_NONE
 };
 

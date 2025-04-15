@@ -1595,4 +1595,8 @@ extern const u8 gText_NettuxTrainingMart[];
 extern const u8 gText_NettuxTMMart[];
 extern const u8 gText_NettuxEvolveMart[];
 
+extern const u8 gText_NettuxDifficultyNormal[];
+extern const u8 gText_NettuxDifficultyHard[];
+extern const u8 gText_NettuxDifficultyDoubles[];
+
 #endif //GUARD_STRINGS_H
