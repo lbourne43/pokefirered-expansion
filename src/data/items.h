@@ -1966,7 +1966,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Exp. Candy XS"),
         .pluralName = _("Exp. Candies XS"),
-        .price = 10,
+        //.price = 10,
+        .price = 0,
         .holdEffectParam = EXP_100,
         .description = COMPOUND_STRING(
             "Gives a very small "
@@ -1985,7 +1986,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Exp. Candy S"),
         .pluralName = _("Exp. Candies S"),
-        .price = 80,
+        //.price = 80,
+        .price = 0,
         .holdEffectParam = EXP_800,
         .description = COMPOUND_STRING(
             "Gives a small "
@@ -2004,7 +2006,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Exp. Candy M"),
         .pluralName = _("Exp. Candies M"),
-        .price = 300,
+        //.price = 300,
+        .price = 0,
         .holdEffectParam = EXP_3000,
         .description = COMPOUND_STRING(
             "Gives a moderate "
@@ -2023,7 +2026,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Exp. Candy L"),
         .pluralName = _("Exp. Candies L"),
-        .price = 1000,
+        //.price = 1000,
+        .price = 0,
         .holdEffectParam = EXP_10000,
         .description = COMPOUND_STRING(
             "Gives a large "
@@ -2042,7 +2046,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Exp. Candy XL"),
         .pluralName = _("Exp. Candies XL"),
-        .price = 3000,
+        //.price = 3000,
+        .price = 0,
         .holdEffectParam = EXP_30000,
         .description = COMPOUND_STRING(
             "Gives a very large "
@@ -13312,7 +13317,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TERA_ORB] =
     {
         .name = _("Tera Orb"),
-        .price = 0,
+        .price = 5000,
         .description = COMPOUND_STRING(
             "Energy charges can "
             "be used to\ncause "

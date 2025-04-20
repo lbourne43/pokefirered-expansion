@@ -1,0 +1,249 @@
+---
+mart:
+  zero:
+    balls:
+      - poke ball
+    potions:
+      - potion
+    status:
+      - antidote
+      - burn heal
+      - ice heal
+      - awakening
+      - paralyze heal
+      - revive
+    other:
+
+  one:
+    balls:
+      - great ball
+    potions:
+      - super potion
+  two:
+    other:
+      - poke doll
+  three:
+    other:
+      - repel
+  four:
+    potions:
+      - hyper potion
+  five:
+    balls:
+      - ultra ball
+    other:
+      - super repel
+  six:
+    status:
+      - full heal
+  seven:
+    potions:
+      - max potion
+    other:
+      - max repel
+  eight: 
+    potions:
+      - full restore
+    other:
+      - max ether
+   
+battle:
+  zero:
+    others:
+      - tera_orb
+      - exp_share
+      - silk_scarf
+      - charcoal
+      - mystic_water
+      - magnet
+      - miracle_seed
+      - never_melt_ice
+      - black_belt
+      - poison_barb
+      - soft_sand
+      - sharp_beak
+      - twisted_spoon
+      - silver_powder
+      - dragon_fang
+      - black_glasses
+      - snowball
+      - hard_stone
+      - spell_tag
+      - metal_coat
+  one:
+  two:
+  three:
+  four:
+    others:
+      - white_herb
+      - mental_herb
+      - power_herb
+      - mirror_herb
+      - focus_sash
+      - leftovers
+      - life_orb
+  five:
+  six:
+    others:
+      - clear amulet
+  seven:
+  eight:
+
+training:
+  zero:
+    other:
+      - exp candy xs
+      - exp candy s
+      - exp candy m
+      - exp candy l
+      - exp candy xl
+      - rare candy
+      - hp up
+      - protein
+      - iron
+      - calcium
+      - zinc
+      - carbos
+      - lonely mint
+      - adamant mint
+      - naughty mint
+      - brave mint
+      - bold mint
+      - impish mint
+      - lax mint
+      - relaxed mint
+      - modest mint
+      - mild mint
+      - rash mint
+      - quiet mint
+      - calm mint
+      - gentle mint
+      - careful mint
+      - sassy mint
+      - timid mint
+      - hasty mint
+      - jolly mint
+      - naive mint
+      - serious mint
+  one:
+  two:
+    other:
+      - ability capsule
+  three:
+  four:
+    other:
+      - ability patch
+  five:
+  six:
+  seven:
+  eight: 
+
+tm:
+  zero:
+    others:
+      - tm_sunny_day
+      - tm_taunt
+      - tm_light_screen
+      - tm_protect
+      - tm_rain_dance
+      - tm_reflect
+      - tm51
+      - tm52
+      - tm53
+      - tm58
+      - tm59
+      - tm63
+      - tm64
+      - tm65
+      - tm66
+  one:
+  two:
+    others:
+      - tm brick break
+      - tm62
+  three:
+    others:
+      - tm_ice_beam
+      - tm_thunderbolt
+      - tm_shock_wave
+      - tm_flamethrower
+  four:
+    others:
+      - tm_sludge_bomb
+      - tm54
+  five:
+    others:
+      - tm_psychic
+      - tm_shadow ball
+  six:
+  seven:
+  eight: 
+
+evolve:
+  zero:
+    others:
+      - fire_stone
+      - water_stone
+      - thunder_stone
+      - leaf_stone
+      - ice_stone
+      - sun_stone
+      - moon_stone
+      - shiny_stone
+      - dusk_stone
+      - dawn_stone
+  one:
+  two:
+    others:
+      - mega_ring
+      - venusaurite
+      - blastoisinite
+      - charizardite_x
+      - charizardite_y
+      - beedrillite
+      - pidgeotite
+      - alakazite
+      - slowbronite
+      - gengarite
+      - kangaskhanite
+      - pinsirite
+      - gyaradosite
+      - aerodactylite
+      - ampharosite
+      - steelixite
+      - scizorite
+      - heracronite
+      - houndoominite
+      - tyranitarite
+      - sceptilite
+      - blazikenite
+      - swampertite
+      - gardevoirite
+      - sablenite
+      - mawilite
+      - aggronite
+      - medichamite
+      - manectite
+      - sharpedonite
+      - cameruptite
+      - altarianite
+      - banettite
+      - absolite
+      - glalitite
+      - salamencite
+      - metagrossite
+      - latiasite
+      - latiosite
+      - lopunnite
+      - garchompite
+      - lucarionite
+      - abomasite
+      - galladite
+      - audinite
+      - diancite
+  three:
+  four:
+  five:
+  six:
+  seven:
+  eight: 

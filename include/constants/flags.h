@@ -1256,8 +1256,8 @@
 // Unused?
 #define FLAG_NETTUX_HARD         0x4BD
 #define FLAG_NETTUX_VGC          0x4BE
-#define FLAG_0x4BF               0x4BF
-#define FLAG_0x4C0               0x4C0
+#define FLAG_TERA_ORB_CHARGED    0x4BF
+#define FLAG_TERA_ORB_NO_COST    0x4C0
 #define FLAG_0x4C1               0x4C1
 #define FLAG_0x4C2               0x4C2
 #define FLAG_0x4C3               0x4C3
